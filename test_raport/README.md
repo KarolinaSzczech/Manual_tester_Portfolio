@@ -160,6 +160,9 @@ Otwórz https://diety.nfz.gov.pl/rejestracja
 
 ![Screen_3](https://user-images.githubusercontent.com/118970045/211535927-ae9adc74-8138-4eb9-8a34-71c1d33b41dc.png)
 
+![screen_11](https://user-images.githubusercontent.com/118970045/211787643-0ab2d451-bcc0-4ec4-982a-4952b1a6cfe0.png)
+
+
 
 ## Sugestie dotyczące użyteczności: ##
 

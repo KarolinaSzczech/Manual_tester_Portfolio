@@ -6,7 +6,18 @@ Raport z testów niedawno udostępnionej strony https://diety.nfz.gov.pl/
 
 **Do testów użyto:** 
 
-dane laptopa i przeglądarki
+_**Desktop:**_
+
+ - OS: Windows 10 PRO
+ - Browser: Chrome version 107.0.5304.108 (Oficjalna wersja) (64-bitowa)
+ - Browser: Firefox Developer Edition Wersja 108.0b6
+ - Microsoft Edge Wersja 107.0.1418.56 (Oficjalna kompilacja) (wersja 64-bitowa)
+
+Smartphone:
+
+Device: POCO X3 NFC
+Android wersja MIU 13.0.3
+Browser Chrome version 107.0.5304.105
 
 **Czas testów:**
  - Testowanie strony https://diety.nfz.gov.pl/ 4h
@@ -99,6 +110,7 @@ Poruszanie się po stronie za pomocą klawiatury - **działa**
 ### Wersja mobilna ###
 
 Przeglądanie przepisów w wersji mobilnej 
+
 Przeglądanie listy zakupów w wersji mobilnej
 
 ## Wykryte defekty: ##

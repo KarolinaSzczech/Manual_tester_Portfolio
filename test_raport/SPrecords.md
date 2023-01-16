@@ -18,7 +18,7 @@ Browser Chrome version 107.0.5304.105
 
 **Czas testów:**
  - Testowanie strony https://sprecords.pl/ 4h
- - Na przygotowanie raportu około 3h
+ - Na przygotowanie raportu około 6h
 
 ## Przetestowano: ##
 
@@ -69,13 +69,13 @@ Walidacja działa poprawnie
 
 ### Rejestracja konta z użyciem długiego adresu e-mail ###
 
-Walidacja działa poprawnie, pojawia się kumunikat "Pole email jest zbyt długie (maks. 128 znaków)."
+Walidacja działa poprawnie, pojawia się komunikat "Pole email jest zbyt długie (maks. 128 znaków)."
 
 
 ### Weryfikacja użycia krótkiego hasła ### 
 
 Weryfikacja walidacji hasła nie działa poprawnie
-_Na stronie brak informacji o wymaganiach hasła. Żeby utworzyć konto wystarczy wpisać 5 znaków, nie muszą spełniać wymagań typu: wielka litera, cyfra, znak specjalny. Hasłem może być pięć jednakowch małych liter np: aaaaa_ 
+_Na stronie brak informacji o wymaganiach hasła. Żeby utworzyć konto wystarczy wpisać 5 znaków, nie muszą spełniać wymagań typu: wielka litera, cyfra, znak specjalny. Hasłem może być pięć jednakowych małych liter np: aaaaa_ 
 Weryfikacja użycia krótkiego hasła, krótszego niż 5 znaków,  działa poprawnie 
 
 ### Weryfikacja użycia długiego hasła ###
@@ -93,7 +93,7 @@ Kroki:
 
 1. Wejdź na stronę https://sprecords.pl/
 2. Otwórz formularz rejestracji konta
-3. Wypełnij poprawnie pola: Imię, Nazisko, E-mail
+3. Wypełnij poprawnie pola: Imię, Nazwisko, E-mail
 4. Użyj bardzo długiego hasła wypełniając pole Hasło. Jako hasło ja użyłam słowa: Wiaderkoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 5. Naciśnij Zapisz
 
@@ -104,7 +104,7 @@ Następnie
 6. Wyloguj się z konta
 7. Zaloguj się na konto przy użyciu wcześniejszych danych z użyciem ustawionego długiego hasła.
 
-_**Rezultat:** Brak możliwości zalogowania się na utwrzone konto. Pod polem hasło pojawia się komunikat Niepoprawny format._
+_**Rezultat:** Brak możliwości zalogowania się na utworzone konto. Pod polem hasło pojawia się komunikat Niepoprawny format._
 
 ![screen - brak możliwości zalogowania się](https://user-images.githubusercontent.com/118970045/212700822-c5640a56-8fe8-4410-860c-ea904b46fc1f.png)
 
@@ -114,9 +114,9 @@ _**Rezultat:** Brak możliwości zalogowania się na utwrzone konto. Pod polem h
 
 Działa
 
-### Rejestracja konta z wykorzytaniem poprzednio użytego adresu e-mail ### 
+### Rejestracja konta z wykorzystaniem poprzednio użytego adresu e-mail ### 
 
-Walidacja wcześniej użytego adresu e-mial nie zawsze działa poprawnie
+Walidacja wcześniej użytego adresu e-mail nie zawsze działa poprawnie
 
 _**WYKRYTE DEFEKTY**_
 
@@ -127,16 +127,16 @@ Priorytet: Średni
 Kroki:
 1. Wejdź na stronę https://sprecords.pl/
 2. Otwórz formularz rejestracji konta
-3. Wypełnij poprawnie pola: Imię, Nazisko, E-mail
+3. Wypełnij poprawnie pola: Imię, Nazwisko, E-mail
 Imię :anna 
 Nazwisko: nowak 
 E-mail: a@wp.pl 
 Hasło: Wiaderko
 4. Naciśnij Zapisz
 
-_**Rezultat:**  Czasami pojwia się komunikat pod polem e-mail, że istnieje on w bazie, a czasami nad nagłówkiem strony pojawiają się dwie notyfikacje niezorzumiałe dla użytkownika._
+_**Rezultat:**  Czasami pojawia się komunikat pod polem e-mail, że istnieje on w bazie, a czasami nad nagłówkiem strony pojawiają się dwie notyfikacje niezrozumiałe dla użytkownika._
 
-Nie udało mi się ustalić od czego zależy pojawianie się prawidłowgo komunikatu, a od czego notyfikacji nad nagłówkiem strony.
+Nie udało mi się ustalić od czego zależy pojawianie się prawidłowego komunikatu, a od czego notyfikacji nad nagłówkiem strony.
 
 ![screen 10 - błąd logowania](https://user-images.githubusercontent.com/118970045/212735939-851ef665-621b-427e-8db3-37cd9828b18b.png)
 
@@ -185,7 +185,7 @@ _**Rezultat:** Komunikat "Wypełnij pole" pojawia się przy polu Hasło_
 ![logowanie 1](https://user-images.githubusercontent.com/118970045/212708281-8e58c326-0202-412e-b7bb-b0f78eca194a.png)
 ![logowanie 2](https://user-images.githubusercontent.com/118970045/212708290-6ca1aa89-107e-45e6-a839-a02b5cfeb3d1.png)
 
-**Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić od razu się przy wszystkich niewypełnionych polach, a nie pojedyńczo._
+**Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić od razu się przy wszystkich niewypełnionych polach, a nie pojedynczo._
 
 ### ZMIANA DANYCH, ZMIANA HASŁA: ###
 
@@ -205,15 +205,15 @@ Kroki
 2. Otwórz formularz logowania konta i zaloguj się na konto
 3. Wejdź w zakładkę moje dane
 4. Uzupełnij pole hasło swoim aktualnym hasłem
-5. Uzuepłnij pole nowe hasło poprawnym hasłem
+5. Uzupełnij pole nowe hasło poprawnym hasłem
 
-_**Rezultat:** Hasło zostało poprawnie zmienione, widoczny jest komunikat o treści "Infromacje poprawnie zaktualizowane" jednakże strona jest "ucięta", nie da się jej scrollować_
+_**Rezultat:** Hasło zostało poprawnie zmienione, widoczny jest komunikat o treści "Informacje poprawnie zaktualizowane" jednakże strona jest "ucięta", nie da się jej scrollować_
 
 ![Screen 13 - srona ucięta do połowy po zaktualizowaniu hasła](https://user-images.githubusercontent.com/118970045/212753466-36a1c124-b975-4bfb-bf31-565c6fbfc046.png)
 
 ### Zmiana hasła na niepoprawne hasło ###
 
-Zmiana hasła na niepoprwane (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła**
+Zmiana hasła na niepoprawne (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła**
 
 _**WYKRYTE DEFEKTY:**_
 
@@ -226,7 +226,7 @@ Kroki
 2. Otwórz formularz logowania konta i zaloguj się na konto
 3. Wejdź w zakładkę moje dane
 4. Uzupełnij pole hasło swoim aktualnym hasłem
-5. Uzuepłnij pole nowe hasło bradzo długim hasłem, ja użyłam hasła Wiaderkoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+5. Uzupełnij pole nowe hasło bardzo długim hasłem, ja użyłam hasła Wiaderkoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 _**Rezultat:** Hasło zostało poprawnie zmienione_
 
@@ -235,13 +235,13 @@ Następnie:
 6. Wyloguj się z konta
 7. Zaloguj się ponownie przy użyciu swojego bardzo długiego hasła
 
-_**Rezultat:** Brak możliwości zalogowania się do konta. Pod polem hasło wyskakuje komunikat Nieporawny format_
+_**Rezultat:** Brak możliwości zalogowania się do konta. Pod polem hasło wyskakuje komunikat Niepoprawny format_
 
 ![screen - brak możliwości zalogowania się](https://user-images.githubusercontent.com/118970045/212742177-3fb7cc4a-682d-4592-8299-0f4e6cf8ed84.png)
 
-**Oczekiwane zachowanie:** _Przy próbie zmiany hasła do konta na bardzo długie powinna działać weryfikacji walidacji hasła uniemożliwaijąca użycie nieprawidłowego hasła._
+**Oczekiwane zachowanie:** _Przy próbie zmiany hasła do konta na bardzo długie powinna działać weryfikacji walidacji hasła uniemożliwiająca użycie nieprawidłowego hasła._
 
-W celu odzyskania dostępu do konta należy skorzystać z funkcji "Nie pamietasz hasła?". 
+W celu odzyskania dostępu do konta należy skorzystać z funkcji "Nie pamiętasz hasła?". 
 
 Formularz odzyskiwania hasła działa prawidłowo. Dopuszczalna jest możliwość zmiany hasła na poprawne hasło pierwotne. 
 
@@ -307,7 +307,7 @@ _**Rezultat:** Wśród płyt winylowych artysty Pidżama Porno widnieją płyty 
 
 **ID-010 Niepoprawne wyniki filtrowania gadżetów artysty Pidżama Porno**
 
-_Problem występuje jedynie po wyfiltrowaniu gadżetów. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach nie ma produktów innych artystów. _ 
+_Problem występuje jedynie po wyfiltrowaniu gadżetów. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach nie ma produktów innych artystów._ 
 
 Priorytet: Niski
 
@@ -346,11 +346,21 @@ _**Rezultat:** Gadżety KNŹ są wśród gadżetów artysty Pidżama Porno._
 ![PP - Gażety](https://user-images.githubusercontent.com/118970045/212755500-aaa36bbe-1723-4728-883b-cc6aff9f4c22.png)
 
 
-
 **Oczekiwane zachowanie:** _Wśród gadżetów artysty Pidżama Porno nie powinno być gadżetów artysty KNŻ._
 
+**ID-012 Niejednakowe stylowanie elementów z nagłówka**
 
+![2023-01-11 11 51 15 _ cała strona SP](https://user-images.githubusercontent.com/118970045/212756916-e39dedd7-85ec-464d-8319-2bbb2f42e528.png)
 
+Położenie białych elementów na czarnym polu jest ewidentnie niesymetryczne. 
+Elementy i tekst PRODUKTY po stronie lewej są większe niż elementy i tekst ARTYŚCI po stronie prawej.
+Wskazane elementy i tekst powinny być jednakowo ostylowane.
+
+**ID-013 Nieprawidłowe stylowanie elementów z nagłówka**
+
+W przypadku powiększenia widoku strony do wielkości 125% tekst PRODKUTY wychoodzi poza czarne pole i nachodzi na pole ARTYŚCI
+
+![screeen 125procent powiększenia](https://user-images.githubusercontent.com/118970045/212757974-44d5a131-a75b-497b-8d30-fd7d41b7e75e.png)
 
 
 

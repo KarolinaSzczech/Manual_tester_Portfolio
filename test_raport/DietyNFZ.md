@@ -128,9 +128,7 @@ Kroki:
 Rezultat: W pewnym momencie zaznaczania produktów powyżej ok 45 produktów, przeglądarka wyświetla błąd, w DevTools widać requesty ze statusem 500 Internal Server Error
 
 
-
 ![Screen_1](https://user-images.githubusercontent.com/118970045/211524527-bbe2865a-2f10-43f7-bc82-9a60da7d8063.png)
-
 
 
 **ID-002 Produkty zaznaczone jako mam w domu są widoczne na wydruku listy** 
@@ -146,7 +144,6 @@ Kroki:
 3. Będąc na liście zakupów zaznacz produkty z jednej grupy jako te które masz w domu
 4. Kliknij pobierz listę zakupów
 Rezultat: Na wydruku listy znajdują się czasem produkty, które zostały zaznaczone jako te które masz w domu. Błąd występuje losowo, najczęściej udało mi się zreprodukować zaznaczając tłuszcze i ryby
-
 
 
 ## Sugestie dotyczące użyteczności: ##

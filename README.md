@@ -14,13 +14,13 @@ I want to work in IT because I want to work remotely and from time to time work 
  - Basics of manual software testing (Udemy),
  - Jira course (Udemy),
  - SQL basics course (Udemy),
+ - Postman course - REST API testing (Udemy),
  - JavaScript workshops - girls.js.
 
 # Courses in progress: #
 
 e.g:
 
- - Postman course - REST API testing (Udemy),
  - Git course (Udemy).
  
  # Browser used during testing: #
@@ -32,6 +32,7 @@ e.g:
  - SQL,
  - TestLink,
  - Devtools,
+ - Postman
  - Trello,
  - Jira.
  

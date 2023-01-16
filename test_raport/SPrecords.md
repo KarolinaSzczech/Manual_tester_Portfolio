@@ -111,9 +111,11 @@ _**Rezultat:** Brak możliwości zalogowania się na utwrzone konto. Pod polem h
 **Oczekiwane zachowanie:** _Komunikat "Nieprawidłowy format" powinien pojawiać się na etapie rejestracji konta, a nie dopiero na etapie logowania._ 
 
 ### Rejestracja konta z użyciem poprawnych danych ### 
+
 Działa
 
 ### Rejestracja konta z wykorzytaniem poprzednio użytego adresu e-mail ### 
+
 Walidacja wcześniej użytego adresu e-mial nie zawsze działa poprawnie
 
 _**WYKRYTE DEFEKTY**_
@@ -187,16 +189,35 @@ _**Rezultat:** Komunikat "Wypełnij pole" pojawia się przy polu Hasło_
 
 ### ZMIANA DANYCH, ZMIANA HASŁA: ###
 
-### Zmiana hasła na inne ### 
+### Zmiana hasła na inne poprawne ### 
 
- - Zmiana hasła na inne poprawne, spełniające wymagania jak przy rejestracji konta - **działa prawidłowo**
-
- - Zmiana hasła na niepoprwane (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła**
-
+Zmiana hasła na inne poprawne, spełniające wymagania jak przy rejestracji konta - **działa** 
+Jednakże mimo poprawnej zmiany hasła na stronie jest błąd.
 
 _**WYKRYTE DEFEKTY:**_
 
-**ID-005 Po zmianie hasła na bardzo długie nie jest możliwe zalogowanie się do konta**
+**ID-005 Po zmianie hasła strona jest "ucięta"**
+
+Priorytet: Niski
+
+Kroki
+1. Wejdź na stronę https://sprecords.pl/
+2. Otwórz formularz logowania konta i zaloguj się na konto
+3. Wejdź w zakładkę moje dane
+4. Uzupełnij pole hasło swoim aktualnym hasłem
+5. Uzuepłnij pole nowe hasło poprawnym hasłem
+
+_**Rezultat:** Hasło zostało poprawnie zmienione, widoczny jest komunikat o treści "Infromacje poprawnie zaktualizowane" jednakże strona jest "ucięta", nie da się jej scrollować_
+
+![Screen 13 - srona ucięta do połowy po zaktualizowaniu hasła](https://user-images.githubusercontent.com/118970045/212753466-36a1c124-b975-4bfb-bf31-565c6fbfc046.png)
+
+### Zmiana hasła na niepoprawne hasło ###
+
+Zmiana hasła na niepoprwane (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła**
+
+_**WYKRYTE DEFEKTY:**_
+
+**ID-006 Po zmianie hasła na bardzo długie nie jest możliwe zalogowanie się do konta**
 
 Priorytet: Wysoki
 
@@ -205,7 +226,7 @@ Kroki
 2. Otwórz formularz logowania konta i zaloguj się na konto
 3. Wejdź w zakładkę moje dane
 4. Uzupełnij pole hasło swoim aktualnym hasłem
-5. Uzuepłnik pole nowe hasło bradzo długim hasłem, ja użyłam hasła Wiaderkoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+5. Uzuepłnij pole nowe hasło bradzo długim hasłem, ja użyłam hasła Wiaderkoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 _**Rezultat:** Hasło zostało poprawnie zmienione_
 
@@ -225,8 +246,7 @@ W celu odzyskania dostępu do konta należy skorzystać z funkcji "Nie pamietasz
 Formularz odzyskiwania hasła działa prawidłowo. Dopuszczalna jest możliwość zmiany hasła na poprawne hasło pierwotne. 
 
 
-
-**ID-006 Brak możliwości zmiany danych użytkownika**
+**ID-007 Brak możliwości zmiany danych użytkownika**
 
 Priorytet: Wysoki
 
@@ -241,19 +261,18 @@ _**Rezultat:** Brak możliwości zmiany danych. Raz po zalogowaniu się na konto
 
 ### INNE DEFEKTY ###
 
-**ID-007 Problem z wyglądem czcionki „na” polskich znakach**
+**ID-008 Problem z wyglądem czcionki „na” polskich znakach**
 
 Priorytet: Niski
 
 Kroki:
-1. Wejdź na stronę sprecords.pl
+1. Wejdź na stronę https://sprecords.pl/
 2. Zaloguj się
 3. Wejdź na Moje konto
 
 _**Rezultat:** Zastosowana czcionka w Witaj Karolina Szczęch najprawdopodobniej nie obsługuje polskich znaków i/lub zastosowane są różne czcionki._ 
 
 ![2023-01-11 11 54 55 SP records -  polskie znaki](https://user-images.githubusercontent.com/118970045/212748060-ae097638-8772-400b-b18a-7af21721c63e.png)
-
 
 
 Następnie
@@ -268,15 +287,76 @@ _**Rezultat:** Czcionka zastosowana dla tekstu: „DODAJ WIADOMOŚĆ”  najpraw
 ![SP Records - ść](https://user-images.githubusercontent.com/118970045/212748170-6a6d17a1-24c2-4f83-ae42-cbddb92b56ca.png)
 
 
+**ID-009 Niepoprawne wyniki filtrowania płyt winylowych artysty Pidżama Porno**
+
+_Problem występuje jedynie po wyfiltrowaniu (LP) płyt winylowych. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach nie ma produktów innych artystów._
+
+Priorytet: niski
+
+Kroki:
+1. Wejdź na stronę https://sprecords.pl/
+2. Wyszukaj artystę Pidżama Porno
+3. Wyfiltruj płyty winylowe tego artysty (LP)
+
+_**Rezultat:** Wśród płyt winylowych artysty Pidżama Porno widnieją płyty winylowe artysty El DUPA_
+
+![Full Page SP Records -bug](https://user-images.githubusercontent.com/118970045/212754014-9b596186-eb1a-4898-a104-add97607ce29.png)
+
+**Oczekiwane zachowanie:** _W wyfiltrowanych wynikach powinny być jedynie płyty winylowe artysty Pidżama Porno._
+
+
+**ID-010 Niepoprawne wyniki filtrowania gadżetów artysty Pidżama Porno**
+
+_Problem występuje jedynie po wyfiltrowaniu gadżetów. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach nie ma produktów innych artystów. _ 
+
+Priorytet: Niski
+
+Kroki:
+1. Wejdź na stronę https://sprecords.pl/
+2. Wyszukaj artystę Pidżama Porno
+3. Wyfiltruj gadżety tego artysty 
+
+_**Rezultat:** Wśród gadżetów artysty Pidżama Porno widnieją gadżety artysty Kazik na Żywo (KNŻ)._
+
+![PP - Gażety](https://user-images.githubusercontent.com/118970045/212754545-a4d1557f-5389-4159-99dc-94aacfa2c1ff.png)
+
+**Oczekiwane zachowanie:** _W wyfiltrowanych wynikach powinny być jedynie gadżety artysty Pidżama Porno._
+
+**ID-011 Niepoprawne wyniki filtrowania gadżetów artysty Kazik Na Żywo (KNŻ)**
+
+_Problem występuje jedynie po wyfiltrowaniu gadżetów. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach u artysty KNŻ figurują wszystkie jego gadżety._
+
+Priorytet: Niski
+
+Kroki:
+1. Wejdź na stronę  https://sprecords.pl/
+2. Wyszukaj artystę KNŻ
+3. Wyfiltruj gadżety tego artysty 
+ 
+_**Rezultat:** Brak jakichkolwiek gadżetów u artysty KNŻ._
+
+ Następnie 
+ 
+4. Wyszukaj artystę Pidżama Porno
+5. Wyfiltruj gadżety artysty
+
+_**Rezultat:** Gadżety KNŹ są wśród gadżetów artysty Pidżama Porno._
+
+![KNŻ - brak gadżetów](https://user-images.githubusercontent.com/118970045/212755497-ba450d15-e5ff-4b8b-a06a-5ffde103109d.png)
+![PP - Gażety](https://user-images.githubusercontent.com/118970045/212755500-aaa36bbe-1723-4728-883b-cc6aff9f4c22.png)
 
 
 
-Propozycje użyteczności
-
-możliwość logowania kontem gmail lub facebooka
+**Oczekiwane zachowanie:** _Wśród gadżetów artysty Pidżama Porno nie powinno być gadżetów artysty KNŻ._
 
 
 
+
+
+
+## Propozycje użyteczności ##
+
+Myślę, że dobrą opcją byłaby możliwość utworzenia i późniejszego logowania się do konta przy użyciu konta gmail czy konta facebook.
 
 
 

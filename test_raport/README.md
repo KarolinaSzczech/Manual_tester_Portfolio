@@ -1,6 +1,5 @@
  # Raport z testów #     
-_(wersja pl)_
- 
+
  
 Raport z testów niedawno udostępnionej strony https://diety.nfz.gov.pl/
 
@@ -13,7 +12,7 @@ _**Desktop:**_
  - Browser: Firefox Developer Edition Wersja 108.0b6
  - Microsoft Edge Wersja 107.0.1418.56 (Oficjalna kompilacja) (wersja 64-bitowa)
 
-Smartphone:
+_**Smartphone:**_
 
 Device: POCO X3 NFC
 Android wersja MIU 13.0.3
@@ -148,20 +147,11 @@ Kroki:
 4. Kliknij pobierz listę zakupów
 Rezultat: Na wydruku listy znajdują się czasem produkty, które zostały zaznaczone jako te które masz w domu. Błąd występuje losowo, najczęściej udało mi się zreprodukować zaznaczając tłuszcze i ryby
 
-**ID-003 Stylowanie filtra kategorii**
-
-priorytet: **Niski**
-
-Przygotowanie: Uśytkownik posiada konto w diety.nfz.gov.pl, ma wybrany jadłospis
-
-Kroki:
-
-1. Zaloguj się i przejdź na Porady lub Filmy
-
-<img width="455" alt="Screen_2" src="https://user-images.githubusercontent.com/118970045/211528759-62e35fb7-2e06-458e-8301-f6ac1c683d57.png">
 
 
-**ID-004 Formularz rejestracji zbędny element pod polem hasła**
+## Sugestie dotyczące użyteczności: ##
+
+**ID-003 Formularz rejestracji - element pod polem hasło**
 
 priorytet: Niski
 
@@ -174,23 +164,27 @@ Otwórz https://diety.nfz.gov.pl/rejestracja
 
 ![screen_11](https://user-images.githubusercontent.com/118970045/211787643-0ab2d451-bcc0-4ec4-982a-4952b1a6cfe0.png)
 
+W/w element mógłbybyć opisany jako np. "Siła hasła". 
+Bez wpisania jakigolowiek znaku w pole hasło, element ten wygląda jak zbędny. Dopiero po wpisaniu znaków w pole hasło pojawia się postęp na pasku i wiadomo do czego służy ten element.
+
+![Screen 12 słabe_sile haslo](https://user-images.githubusercontent.com/118970045/212663721-2ba6e472-d8e0-47c5-b17e-1911fe377093.png)
+
+Pastek postępu wg mnie powinien znajdować się bezpośrednio nad tekstem "Hasło nie spełnia wymagań witryny".
 
 
-## Sugestie dotyczące użyteczności: ##
-
-**ID-005 Zaznaczanie na liście zakupów całych sekcji** 
+**ID-004 Zaznaczanie na liście zakupów całych sekcji** 
 
 np. Chce zaznaczyć wszystkie przyprawy na raz żeby nie było ich na liście zakupów
 
-**ID-006 Wydruk listy zakupów**
+**ID-005 Wydruk listy zakupów**
 
 Fajnie gdyby był podzielony na 2 lub wiecej kolumn żeby nie trzeba było przewijać stron, lub w przypadku wydruku nie marnować papieru
 
 <img width="387" alt="Screen 4" src="https://user-images.githubusercontent.com/118970045/211536517-62a96103-07b4-49fc-9cbc-2292e1c89c18.png">
 
-**ID-007 Otwieranie Jadłospisu i Listy zakupów w nowej karcie lub od razu pobieranie pliku**
+**ID-006 Otwieranie Jadłospisu i Listy zakupów w nowej karcie lub od razu pobieranie pliku**
 
-**ID-008 Lepsze nazwenictwo przycisków zamiast dodawanie pomocniczych treści obok**
+**ID-007 Lepsze nazwenictwo przycisków zamiast dodawanie pomocniczych treści obok**
 
 
 <img width="357" alt="Screen 5" src="https://user-images.githubusercontent.com/118970045/211537007-d2cecfe4-a04c-481b-a577-84d383454cb5.png">
@@ -200,11 +194,11 @@ Fajnie gdyby był podzielony na 2 lub wiecej kolumn żeby nie trzeba było przew
 <img width="390" alt="Screen 7" src="https://user-images.githubusercontent.com/118970045/211537109-c0f60f27-c1a5-47c8-998b-92999beb6161.png">
 
 
-**ID-009 Poprawa komunikatu dla użytkownika który podał za długi adres email**
+**ID-008 Poprawa komunikatu dla użytkownika który podał za długi adres email**
 
 <img width="1264" alt="Screen 8" src="https://user-images.githubusercontent.com/118970045/211537937-f7f205dd-c050-41e6-bb98-1bd6d8fc4e1f.png">
 
-**ID-010 Walidacja w kalkulatorze BMI po polsku**
+**ID-009 Walidacja w kalkulatorze BMI po polsku**
 
 <img width="496" alt="Screeen 10" src="https://user-images.githubusercontent.com/118970045/211539600-27cda10b-103d-462c-a662-18784e8300af.png">
 

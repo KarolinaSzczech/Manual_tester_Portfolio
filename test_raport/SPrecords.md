@@ -64,7 +64,7 @@ _**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Hasło_
 **Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić się przy wszystkich niewypełnionych polach._
 
 
-### Rejestracja konta z użyciem błędnego adresu e-mail ### 
+### Rejestracja konta z użyciem błędnego adresu e-mail ###
 Walidacja działa poprawnie
 
 ### Rejestracja konta z użyciem długiego adresu e-mail ###
@@ -72,7 +72,7 @@ Walidacja działa poprawnie
 Walidacja działa poprawnie, pojawia się komunikat "Pole email jest zbyt długie (maks. 128 znaków)."
 
 
-### Weryfikacja użycia krótkiego hasła ### 
+### Weryfikacja użycia krótkiego hasła ###
 
 Weryfikacja walidacji hasła nie działa poprawnie
 _Na stronie brak informacji o wymaganiach hasła. Żeby utworzyć konto wystarczy wpisać 5 znaków, nie muszą spełniać wymagań typu: wielka litera, cyfra, znak specjalny. Hasłem może być pięć jednakowych małych liter np: aaaaa_ 
@@ -110,11 +110,11 @@ _**Rezultat:** Brak możliwości zalogowania się na utworzone konto. Pod polem 
 
 **Oczekiwane zachowanie:** _Komunikat "Nieprawidłowy format" powinien pojawiać się na etapie rejestracji konta, a nie dopiero na etapie logowania._ 
 
-### Rejestracja konta z użyciem poprawnych danych ### 
+### Rejestracja konta z użyciem poprawnych danych ###
 
 Działa
 
-### Rejestracja konta z wykorzystaniem poprzednio użytego adresu e-mail ### 
+### Rejestracja konta z wykorzystaniem poprzednio użytego adresu e-mail ###
 
 Walidacja wcześniej użytego adresu e-mail nie zawsze działa poprawnie
 

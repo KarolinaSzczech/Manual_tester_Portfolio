@@ -43,10 +43,10 @@ e.g:
  - Using MS Office.
 
 # My test case examples: #
-[Test case example](test_cases)
+[Test case example](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_cases)
 
 # My bug report examples: #
-[Bug report](here will be link to folder with examples)
+[Bug report](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_raport)
 
 # Studies: #
 2007 – 2012 University of Rzeszów, Law, master’s degree

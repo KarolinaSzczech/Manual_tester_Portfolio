@@ -18,13 +18,13 @@ Browser Chrome version 107.0.5304.105
 
 **Czas testów:**
  - Testowanie strony https://sprecords.pl/ 4h
- - Na przygotowanie raportu około 6h
+ - Na przygotowanie raportu około 8h
 
 ## Przetestowano: ##
 
 ### REJESTRACJA: ###
 
-**Wysłanie pustego formularza** - nie działa poprawnie
+**Wysłanie pustego formularza** - nie działa poprawnie.
 
 _**WYKRYTE DEFEKTY:**_
 
@@ -39,48 +39,48 @@ Kroki:
 3. Nie wypełniaj żadnego pola 
 4. Kliknij Zapisz
 
-_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Imię_
+_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Imię._
 
 5. Wypełnij pole Imię
 6. Kliknij Zapisz
 
-_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Nazwisko_
+_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Nazwisko._
 
 7. Wypełnij pola: Imię i Nazwisko
 8. Kliknij Zapisz
 
-_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu E-mail_
+_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu E-mail._
 
 10. Wypełnij pola: Imię, Nazwisko i E-mail
 11. Kliknij Zapisz
 
-_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Hasło_
+_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Hasło._
 
 ![Screen_1](https://user-images.githubusercontent.com/118970045/212694757-eb7dcc2f-ce01-4d4a-9497-89a3287f8424.png)
 ![Screen 2](https://user-images.githubusercontent.com/118970045/212694754-4ef4732d-42bb-42e4-8d76-d7f930bf927f.png)
 ![screen- brak emaila](https://user-images.githubusercontent.com/118970045/212695058-8619899d-b272-46ae-90dc-c41acb628775.png)
 ![screen - bez hasla](https://user-images.githubusercontent.com/118970045/212694750-5623b4fc-51a4-434d-855d-f1f2a10a937c.png)
 
-**Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić się przy wszystkich niewypełnionych polach lub można zablokować przycisk dopóki wszystkie pola nie zostaną uzupełnione.._
+**Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić się przy wszystkich niewypełnionych polach lub można zablokować przycisk dopóki wszystkie pola nie zostaną uzupełnione._
 
 
 ### Rejestracja konta z użyciem błędnego adresu e-mail ###
-Walidacja działa poprawnie
+Walidacja działa poprawnie.
 
 ### Rejestracja konta z użyciem długiego adresu e-mail ###
 
-Walidacja działa poprawnie, pojawia się komunikat "Pole email jest zbyt długie (maks. 128 znaków)."
+Walidacja działa poprawnie, pojawia się komunikat _Pole email jest zbyt długie (maks. 128 znaków)._
 
 
 ### Weryfikacja użycia krótkiego hasła ###
 
-Weryfikacja użycia krótkiego hasła, krótszego niż 5 znaków,  działa poprawnie. 
+Weryfikacja użycia krótkiego hasła, krótszego niż 5 znaków, działa poprawnie. 
 
 _Na stronie brak informacji o wymaganiach hasła. Hasłem może być pięć jednakowych małych liter np: aaaaa. Lepszą praktyką jest dodawanie wymagań typu: wielka litera, mała litera, cyfra, znak specjalny._ 
 
 
 ### Weryfikacja użycia długiego hasła ###
-Walidacja nie działa poprawnie
+Walidacja nie działa poprawnie.
 
 _**WYKRYTE DEFEKTY:**_
 
@@ -103,7 +103,7 @@ _**Rezultat:** Konto zostało utworzone poprawnie, użytkownik zostaje zalogowan
 Następnie
 
 6. Wyloguj się z konta
-7. Zaloguj się na konto przy użyciu wcześniejszych danych z użyciem ustawionego długiego hasła.
+7. Zaloguj się na konto przy użyciu wcześniejszych danych z użyciem ustawionego długiego hasła
 
 _**Rezultat:** Brak możliwości zalogowania się na utworzone konto. Pod polem hasło pojawia się komunikat Niepoprawny format._
 
@@ -113,11 +113,11 @@ _**Rezultat:** Brak możliwości zalogowania się na utworzone konto. Pod polem 
 
 ### Rejestracja konta z użyciem poprawnych danych ###
 
-Działa
+Działa.
 
 ### Rejestracja konta z wykorzystaniem poprzednio użytego adresu e-mail ###
 
-Walidacja wcześniej użytego adresu e-mail nie zawsze działa poprawnie
+Walidacja wcześniej użytego adresu e-mail nie zawsze działa poprawnie.
 
 _**WYKRYTE DEFEKTY**_
 
@@ -141,25 +141,25 @@ Nie udało mi się ustalić od czego zależy pojawianie się prawidłowego komun
 
 ![screen 10 - błąd logowania](https://user-images.githubusercontent.com/118970045/212735939-851ef665-621b-427e-8db3-37cd9828b18b.png)
 
-**Oczekiwane zachowanie:** _Za każdym razem powinien pojawiać się komunikat pod polem e-mail o tym, że wskazany e-mail już istnieje w bazie_ 
+**Oczekiwane zachowanie:** _Za każdym razem powinien pojawiać się komunikat pod polem e-mail o tym, że wskazany e-mail już istnieje w bazie._ 
 
 
 ### LOGOWANIE: ###
 
 ### Logowanie poprawnymi danymi ### 
-Działa
+Działa.
 
 ### Logowanie nieistniejącego użytkownika ### 
-Walidacja działa poprawnie
+Walidacja działa poprawnie.
 
 ### Logowanie z użyciem adresu e-mail innego użytkownika ### 
-Walidacja działa poprawnie
+Walidacja działa poprawnie.
 
 ### Logowanie z użyciem nieprawidłowego hasła ###
-Walidacja działa poprawnie
+Walidacja działa poprawnie.
 
 ### Logowanie pustym formularzem ###
-Walidacja nie działa poprawnie
+Walidacja nie działa poprawnie.
 
 _**WYKRYTE DEFEKTY:**_
 
@@ -176,19 +176,18 @@ Kroki:
 3. Nie wypełniaj żadnego pola 
 4. Kliknij Zapisz
 
-_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu E-mail_
+_**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu E-mail._
 
 5. Wypełnij pole E-mail
 6. Kliknij Zapisz
 
-_**Rezultat:** Komunikat "Wypełnij pole" pojawia się przy polu Hasło_
+_**Rezultat:** Komunikat "Wypełnij pole" pojawia się przy polu Hasło._
 
 ![logowanie 1](https://user-images.githubusercontent.com/118970045/212708281-8e58c326-0202-412e-b7bb-b0f78eca194a.png)
 ![logowanie 2](https://user-images.githubusercontent.com/118970045/212708290-6ca1aa89-107e-45e6-a839-a02b5cfeb3d1.png)
 
 **Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić od razu się przy wszystkich niewypełnionych polach, a nie pojedynczo._
 
-Podobny problem występował podcz
 
 ### ZMIANA DANYCH, ZMIANA HASŁA: ###
 
@@ -210,13 +209,13 @@ Kroki
 4. Uzupełnij pole hasło swoim aktualnym hasłem
 5. Uzupełnij pole nowe hasło poprawnym hasłem
 
-_**Rezultat:** Hasło zostało poprawnie zmienione, widoczny jest komunikat o treści "Informacje poprawnie zaktualizowane" jednakże strona jest "ucięta", nie da się jej scrollować_
+_**Rezultat:** Hasło zostało poprawnie zmienione, widoczny jest komunikat o treści "Informacje poprawnie zaktualizowane" jednakże strona jest "ucięta", nie da się jej scrollować._
 
 ![Screen 13 - srona ucięta do połowy po zaktualizowaniu hasła](https://user-images.githubusercontent.com/118970045/212753466-36a1c124-b975-4bfb-bf31-565c6fbfc046.png)
 
 ### Zmiana hasła na niepoprawne hasło ###
 
-Zmiana hasła na niepoprawne (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła**
+Zmiana hasła na niepoprawne (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła.**
 
 
 _**WYKRYTE DEFEKTY:**_
@@ -234,14 +233,14 @@ Kroki
 4. Uzupełnij pole hasło swoim aktualnym hasłem
 5. Uzupełnij pole nowe hasło bardzo długim hasłem, ja użyłam hasła Wiaderkoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
-_**Rezultat:** Hasło zostało poprawnie zmienione_
+_**Rezultat:** Hasło zostało poprawnie zmienione._
 
 Następnie:
 
 6. Wyloguj się z konta
 7. Zaloguj się ponownie przy użyciu swojego bardzo długiego hasła
 
-_**Rezultat:** Brak możliwości zalogowania się do konta. Pod polem hasło wyskakuje komunikat Niepoprawny format_
+_**Rezultat:** Brak możliwości zalogowania się do konta. Pod polem hasło wyskakuje komunikat Niepoprawny format._
 
 ![screen - brak możliwości zalogowania się](https://user-images.githubusercontent.com/118970045/212742177-3fb7cc4a-682d-4592-8299-0f4e6cf8ed84.png)
 
@@ -301,7 +300,7 @@ Kroki:
 2. Wybierz artystę z rozwijanej listy 
 3. Wyfiltruj płyty winylowe tego artysty (LP)
 
-_**Rezultat:** Wśród płyt winylowych artysty Pidżama Porno widnieją płyty winylowe artysty El DUPA_
+_**Rezultat:** Wśród płyt winylowych artysty Pidżama Porno widnieją płyty winylowe artysty El DUPA._
 
 ![Full Page SP Records -bug](https://user-images.githubusercontent.com/118970045/212754014-9b596186-eb1a-4898-a104-add97607ce29.png)
 
@@ -347,7 +346,6 @@ _**Rezultat:** Gadżety KNŹ są wśród gadżetów artysty Pidżama Porno._
 ![KNŻ - brak gadżetów](https://user-images.githubusercontent.com/118970045/212755497-ba450d15-e5ff-4b8b-a06a-5ffde103109d.png)
 ![PP - Gażety](https://user-images.githubusercontent.com/118970045/212755500-aaa36bbe-1723-4728-883b-cc6aff9f4c22.png)
 
-
 **Oczekiwane zachowanie:** _Wśród gadżetów artysty Pidżama Porno nie powinno być gadżetów artysty KNŻ._
 
 ### ID-012 Niejednakowe stylowanie elementów z nagłówka ###
@@ -360,7 +358,7 @@ Wskazane elementy i tekst powinny być jednakowo ostylowane.
 
 ### ID-013 Nieprawidłowe stylowanie elementów z nagłówka ###
 
-W przypadku powiększenia widoku strony do wielkości 125% tekst PRODKUTY wychoodzi poza czarne pole i nachodzi na pole ARTYŚCI
+W przypadku powiększenia widoku strony do wielkości 125% tekst PRODKUTY wychoodzi poza czarne pole i nachodzi na pole z tekstem ARTYŚCI.
 
 ![screeen 125procent powiększenia](https://user-images.githubusercontent.com/118970045/212757974-44d5a131-a75b-497b-8d30-fd7d41b7e75e.png)
 

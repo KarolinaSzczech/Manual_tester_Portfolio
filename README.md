@@ -43,7 +43,7 @@ e.g:
  - Using MS Office.
 
 # My test case examples: #
-[Test case example](here will be link to folder with examples)
+[Test case example](test_cases)
 
 # My bug report examples: #
 [Bug report](here will be link to folder with examples)

@@ -28,7 +28,7 @@ Browser Chrome version 107.0.5304.105
 
 _**WYKRYTE DEFEKTY:**_
 
-**ID-001 Formularz rejestracji waliduje tylko po jednym polu na raz** 
+### ID-001 Formularz rejestracji waliduje tylko po jednym polu na raz ### 
 
 Priorytet: Niski
 
@@ -61,7 +61,7 @@ _**Rezultat:** Komunikat "Wypełnij pole" pojawia się tylko przy polu Hasło_
 ![screen- brak emaila](https://user-images.githubusercontent.com/118970045/212695058-8619899d-b272-46ae-90dc-c41acb628775.png)
 ![screen - bez hasla](https://user-images.githubusercontent.com/118970045/212694750-5623b4fc-51a4-434d-855d-f1f2a10a937c.png)
 
-**Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić się przy wszystkich niewypełnionych polach._
+**Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić się przy wszystkich niewypełnionych polach lub można zablokować przycisk dopóki wszystkie pola nie zostaną uzupełnione.._
 
 
 ### Rejestracja konta z użyciem błędnego adresu e-mail ###
@@ -74,16 +74,17 @@ Walidacja działa poprawnie, pojawia się komunikat "Pole email jest zbyt długi
 
 ### Weryfikacja użycia krótkiego hasła ###
 
-Weryfikacja walidacji hasła nie działa poprawnie
-_Na stronie brak informacji o wymaganiach hasła. Żeby utworzyć konto wystarczy wpisać 5 znaków, nie muszą spełniać wymagań typu: wielka litera, cyfra, znak specjalny. Hasłem może być pięć jednakowych małych liter np: aaaaa_ 
-Weryfikacja użycia krótkiego hasła, krótszego niż 5 znaków,  działa poprawnie 
+Weryfikacja użycia krótkiego hasła, krótszego niż 5 znaków,  działa poprawnie. 
+
+_Na stronie brak informacji o wymaganiach hasła. Hasłem może być pięć jednakowych małych liter np: aaaaa. Lepszą praktyką jest dodawanie wymagań typu: wielka litera, mała litera, cyfra, znak specjalny._ 
+
 
 ### Weryfikacja użycia długiego hasła ###
 Walidacja nie działa poprawnie
 
 _**WYKRYTE DEFEKTY:**_
 
-**ID-002 Formularz rejestracji nie waliduje za długiego hasła**
+### ID-002 Formularz rejestracji nie waliduje za długiego hasła ###
 
 _Możliwe jest utworzenie konta z użyciem bardzo długiego hasła ale nie jest możliwe poźniejsze zalogowanie się na konto z użyciem tego hasła._
 
@@ -120,7 +121,7 @@ Walidacja wcześniej użytego adresu e-mail nie zawsze działa poprawnie
 
 _**WYKRYTE DEFEKTY**_
 
-**ID-003 Brak czytelnego komunikatu o użyciu istniejącego w bazie adresu e-mail** 
+### ID-003 Brak czytelnego komunikatu o użyciu istniejącego w bazie adresu e-mail ### 
 
 Priorytet: Średni
 
@@ -157,14 +158,14 @@ Walidacja działa poprawnie
 ### Logowanie z użyciem nieprawidłowego hasła ###
 Walidacja działa poprawnie
 
-Walidacja nie działa poprawnie
-
 ### Logowanie pustym formularzem ###
 Walidacja nie działa poprawnie
 
 _**WYKRYTE DEFEKTY:**_
 
-**ID-004 Formularz logowania waliduje tylko po jednym polu na raz** 
+### ID-004 Formularz logowania waliduje tylko po jednym polu na raz ### 
+
+_Podobny błąd występuje przy rejestracji jest zgłoszone jako ID-002_
 
 Priorytet: Niski
 
@@ -187,16 +188,18 @@ _**Rezultat:** Komunikat "Wypełnij pole" pojawia się przy polu Hasło_
 
 **Oczekiwane zachowanie:** _Komunikat "Wypełnij pole" powinien pojawić od razu się przy wszystkich niewypełnionych polach, a nie pojedynczo._
 
+Podobny problem występował podcz
+
 ### ZMIANA DANYCH, ZMIANA HASŁA: ###
 
-### Zmiana hasła na inne poprawne ### 
+#### Zmiana hasła na inne poprawne #### 
 
-Zmiana hasła na inne poprawne, spełniające wymagania jak przy rejestracji konta - **działa** 
-Jednakże mimo poprawnej zmiany hasła na stronie jest błąd.
+Działa. Znaleziono błąd w UI strony. 
+
 
 _**WYKRYTE DEFEKTY:**_
 
-**ID-005 Po zmianie hasła strona jest "ucięta"**
+### ID-005 Po zmianie hasła strona jest "ucięta" ###
 
 Priorytet: Niski
 
@@ -215,9 +218,12 @@ _**Rezultat:** Hasło zostało poprawnie zmienione, widoczny jest komunikat o tr
 
 Zmiana hasła na niepoprawne (na bardzo długie hasło)  - **brak walidacji weryfikacji nieprawidłowego hasła**
 
+
 _**WYKRYTE DEFEKTY:**_
 
-**ID-006 Po zmianie hasła na bardzo długie nie jest możliwe zalogowanie się do konta**
+### ID-006 Po zmianie hasła na bardzo długie nie jest możliwe zalogowanie się do konta ###
+
+_Podobny błąd występuje przy rejestracji z długim hasłem i jest zgłoszone jako ID-001_
 
 Priorytet: Wysoki
 
@@ -239,14 +245,10 @@ _**Rezultat:** Brak możliwości zalogowania się do konta. Pod polem hasło wys
 
 ![screen - brak możliwości zalogowania się](https://user-images.githubusercontent.com/118970045/212742177-3fb7cc4a-682d-4592-8299-0f4e6cf8ed84.png)
 
-**Oczekiwane zachowanie:** _Przy próbie zmiany hasła do konta na bardzo długie powinna działać weryfikacji walidacji hasła uniemożliwiająca użycie nieprawidłowego hasła._
-
-W celu odzyskania dostępu do konta należy skorzystać z funkcji "Nie pamiętasz hasła?". 
-
-Formularz odzyskiwania hasła działa prawidłowo. Dopuszczalna jest możliwość zmiany hasła na poprawne hasło pierwotne. 
+**Oczekiwane zachowanie:** _Przy próbie zmiany hasła do konta na zbyt długie powinna zadziałać walidacja i nie pozwolić na użycie nieprawidłowej wartości._
 
 
-**ID-007 Brak możliwości zmiany danych użytkownika**
+### ID-007 Brak możliwości zmiany danych użytkownika ###
 
 Priorytet: Wysoki
 
@@ -259,9 +261,13 @@ _**Rezultat:** Brak możliwości zmiany danych. Raz po zalogowaniu się na konto
 
 ![screen - bład moje dane](https://user-images.githubusercontent.com/118970045/212740918-9eb70dfa-0f8e-46a1-b828-e684c616c94d.png)
 
+#### Funkcja “Nie pamiętasz hasła? #### 
+
+Formularz odzyskiwania hasła działa prawidłowo. Dopuszczalna jest możliwość zmiany hasła na już kiedyś używane. 
+
 ### INNE DEFEKTY ###
 
-**ID-008 Problem z wyglądem czcionki „na” polskich znakach**
+### ID-008 Problem z wyglądem czcionki „na” polskich znakach ###
 
 Priorytet: Niski
 
@@ -274,20 +280,17 @@ _**Rezultat:** Zastosowana czcionka w Witaj Karolina Szczęch najprawdopodobniej
 
 ![2023-01-11 11 54 55 SP records -  polskie znaki](https://user-images.githubusercontent.com/118970045/212748060-ae097638-8772-400b-b18a-7af21721c63e.png)
 
-
 Następnie
 
 4. Przejdź ścieżkę Moje konto >Historia i szczegóły zamówień
 5. Kliknij na szczegóły swojego zamówienia
 6. Na dole strony pojawi się okienko DODAJ WIADOMOŚĆ
 
-
 _**Rezultat:** Czcionka zastosowana dla tekstu: „DODAJ WIADOMOŚĆ”  najprawdopodobniej nie obsługuje polskich znaków i/lub zastosowane są różne czcionki._
 
 ![SP Records - ść](https://user-images.githubusercontent.com/118970045/212748170-6a6d17a1-24c2-4f83-ae42-cbddb92b56ca.png)
 
-
-**ID-009 Niepoprawne wyniki filtrowania płyt winylowych artysty Pidżama Porno**
+### ID-009 Niepoprawne wyniki filtrowania płyt winylowych artysty Pidżama Porno ###
 
 _Problem występuje jedynie po wyfiltrowaniu (LP) płyt winylowych. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach nie ma produktów innych artystów._
 
@@ -295,7 +298,7 @@ Priorytet: niski
 
 Kroki:
 1. Wejdź na stronę https://sprecords.pl/
-2. Wyszukaj artystę Pidżama Porno
+2. Wybierz artystę z rozwijanej listy 
 3. Wyfiltruj płyty winylowe tego artysty (LP)
 
 _**Rezultat:** Wśród płyt winylowych artysty Pidżama Porno widnieją płyty winylowe artysty El DUPA_
@@ -304,8 +307,7 @@ _**Rezultat:** Wśród płyt winylowych artysty Pidżama Porno widnieją płyty 
 
 **Oczekiwane zachowanie:** _W wyfiltrowanych wynikach powinny być jedynie płyty winylowe artysty Pidżama Porno._
 
-
-**ID-010 Niepoprawne wyniki filtrowania gadżetów artysty Pidżama Porno**
+### ID-010 Niepoprawne wyniki filtrowania gadżetów artysty Pidżama Porno ###
 
 _Problem występuje jedynie po wyfiltrowaniu gadżetów. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach nie ma produktów innych artystów._ 
 
@@ -313,7 +315,7 @@ Priorytet: Niski
 
 Kroki:
 1. Wejdź na stronę https://sprecords.pl/
-2. Wyszukaj artystę Pidżama Porno
+2. Wybierz artystę z rozwijanej listy 
 3. Wyfiltruj gadżety tego artysty 
 
 _**Rezultat:** Wśród gadżetów artysty Pidżama Porno widnieją gadżety artysty Kazik na Żywo (KNŻ)._
@@ -322,7 +324,7 @@ _**Rezultat:** Wśród gadżetów artysty Pidżama Porno widnieją gadżety arty
 
 **Oczekiwane zachowanie:** _W wyfiltrowanych wynikach powinny być jedynie gadżety artysty Pidżama Porno._
 
-**ID-011 Niepoprawne wyniki filtrowania gadżetów artysty Kazik Na Żywo (KNŻ)**
+### ID-011 Niepoprawne wyniki filtrowania gadżetów artysty Kazik Na Żywo (KNŻ) ###
 
 _Problem występuje jedynie po wyfiltrowaniu gadżetów. W przypadku wyświetlenia wszystkich produktów (gadżetów, koszulek, płyt winylowych, kaset itp.) w zwróconych wynikach u artysty KNŻ figurują wszystkie jego gadżety._
 
@@ -330,14 +332,14 @@ Priorytet: Niski
 
 Kroki:
 1. Wejdź na stronę  https://sprecords.pl/
-2. Wyszukaj artystę KNŻ
+2. Wybierz artystę KNŻ z rozwijanej listy 
 3. Wyfiltruj gadżety tego artysty 
  
 _**Rezultat:** Brak jakichkolwiek gadżetów u artysty KNŻ._
 
  Następnie 
  
-4. Wyszukaj artystę Pidżama Porno
+4. Wybierz artystę Pidżama Porno
 5. Wyfiltruj gadżety artysty
 
 _**Rezultat:** Gadżety KNŹ są wśród gadżetów artysty Pidżama Porno._
@@ -348,7 +350,7 @@ _**Rezultat:** Gadżety KNŹ są wśród gadżetów artysty Pidżama Porno._
 
 **Oczekiwane zachowanie:** _Wśród gadżetów artysty Pidżama Porno nie powinno być gadżetów artysty KNŻ._
 
-**ID-012 Niejednakowe stylowanie elementów z nagłówka**
+### ID-012 Niejednakowe stylowanie elementów z nagłówka ###
 
 ![2023-01-11 11 51 15 _ cała strona SP](https://user-images.githubusercontent.com/118970045/212756916-e39dedd7-85ec-464d-8319-2bbb2f42e528.png)
 
@@ -356,12 +358,11 @@ Położenie białych elementów na czarnym polu jest ewidentnie niesymetryczne.
 Elementy i tekst PRODUKTY po stronie lewej są większe niż elementy i tekst ARTYŚCI po stronie prawej.
 Wskazane elementy i tekst powinny być jednakowo ostylowane.
 
-**ID-013 Nieprawidłowe stylowanie elementów z nagłówka**
+### ID-013 Nieprawidłowe stylowanie elementów z nagłówka ###
 
 W przypadku powiększenia widoku strony do wielkości 125% tekst PRODKUTY wychoodzi poza czarne pole i nachodzi na pole ARTYŚCI
 
 ![screeen 125procent powiększenia](https://user-images.githubusercontent.com/118970045/212757974-44d5a131-a75b-497b-8d30-fd7d41b7e75e.png)
-
 
 
 ## Propozycje użyteczności ##

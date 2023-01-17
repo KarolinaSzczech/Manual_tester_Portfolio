@@ -287,6 +287,8 @@ Następnie
 
 _**Rezultat:** Czcionka zastosowana dla tekstu: „DODAJ WIADOMOŚĆ”  najprawdopodobniej nie obsługuje polskich znaków i/lub zastosowane są różne czcionki._
 
+**UWAGI:** Opcja "DODAJ WIADOMOŚĆ" jest dostępna tylko dla zalogowanych użytkowników z historią zamówień. Podczas testowania strony tylko w historii i szczegółach zmamówień zauważyłam w/w opcję. U użytkowników, którzy nie posiadają historii zamówień opcja "DODAJ WIADOMOŚĆ" jest niedostępna. 
+
 ![SP Records - ść](https://user-images.githubusercontent.com/118970045/212748170-6a6d17a1-24c2-4f83-ae42-cbddb92b56ca.png)
 
 ### ID-009 Niepoprawne wyniki filtrowania płyt winylowych artysty Pidżama Porno ###
@@ -362,6 +364,19 @@ W przypadku powiększenia widoku strony do wielkości 125% tekst PRODKUTY wychoo
 
 ![screeen 125procent powiększenia](https://user-images.githubusercontent.com/118970045/212757974-44d5a131-a75b-497b-8d30-fd7d41b7e75e.png)
 
+### ID-014 Brak odpowieniego odstępu między tekstem, a grafiką  ###
+
+Priorytet: Niski
+
+Kroki:
+1. Wejdź na stronę  https://sprecords.pl/
+2. Scrolluj stronę na dół
+3. Wybierze ze stopki zakładkę Reklamacje
+4. Scrolluj stronę na dół aż do Inne Reklamacje
+
+_**Rezultat:** Brak odpowiedniego odstępu między ostatnią liniką tekstu, a grafiką._
+
+![Screen 14 - zakładka reklamacje](https://user-images.githubusercontent.com/118970045/212895801-c1f61261-d369-40e8-976c-7feec5ed69c1.png)
 
 ## Propozycje użyteczności ##
 

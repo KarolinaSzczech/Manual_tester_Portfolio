@@ -4,7 +4,7 @@
 | No. |	Przypadek testowy |	Otrzymany rezultat |
 |----|---------|-----------------|
 |1 |  Logowanie istniejącego użytkownika poprawnymi danymi	|Działa. Użytkownik poprawnie zalogowany|
-|2 |  Próba zalogowania się istniejącego użytkownika z użyciem błędnego hasła | Walidacja działa. Widoczny komunikat _Niepoprawna nazwa użytkownika lub hasło_.\|
+|2 |  Próba zalogowania się istniejącego użytkownika z użyciem błędnego hasła | Walidacja działa. Widoczny komunikat _Niepoprawna nazwa użytkownika lub hasło_.|
 |3 |	Próba zalogowania się z użyciem losowego loginu i hasła (nie istniejącego w bazie) | Walidacja działa. Widoczny komunikat _Niepoprawna nazwa użytkownika lub hasło_|
 |4 |	Próba zalogowania się pustym formularzem | Walidacja działa. Wyświetla się informacja o wymaganej wartości pól e-mail i hasło, nie można wysłać pustego formularza, a przycisk _Zaloguj się_ jest wyłączony tak długo, jak pola są puste|
 |5 |	Weryfikacja pola logowania przy użyciu wielkich liter jako login i ważnego hasło | Użytkownik poprawnie zalogowany|

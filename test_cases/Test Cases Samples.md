@@ -13,7 +13,7 @@ These test cases can be applied to any system that has login functionality. Sinc
 |6 |	Validate login field: for email use only @domain.com and valid password |	Information "invalid value" should be displayed Note: If the system uses email as login, it would be good to display login@domain.com along with the message "Invalid value" |
 |7 |	As a logged-in user, enter the login url	| The user is redirected to the home page |
 |8 |	Enter login page and type password |	Password should be masked **** |
-|9 |	Use Tab key to navigate throw login form |	User is able to use only keybord to login to application |
+|9 |	Use Tab key to navigate throw login form |	User is able to use only keyboard to login to application |
 |10 |	Use Enter key to confirm login form |	The user is logged into the application |
 |11	| Mark Remember password checkbox and log in with correct credentials |	The user should be logged in after re-entering the site, after restarting the browser |
 |12	| Attempt to log in as an existing user with an invalid password 3 or more times	| Login lockout for several minutes and/or email to user about suspicious login attempt. |

@@ -21,14 +21,15 @@ These test cases can be applied to any system that has login functionality. Sinc
 
 ## Default login test cases (low-level test cases) ##
 
-### Use Facebook authentication to log in and create an account ###
+### Use Facebook authentication to create account and login	 ###
 
 **Precondition:** The user has account in the Facebook application that are not synchronized with the website.
 
 | No. |	Test Case |	Expected Result |
 |----|---------|--------|
-|1 |Press the Login with Facebook button  |	The user has been transferred to the simplified registration screen |
-|2 |Tick the required consent and then press the Register button | The checkbox with consent to the terms of the regulations has been marked. The user has been registered and transferred to the application |
+|1 |Open the website login page and press the Login with Facebook button |	The user has been transferred to the Facebook login screen |
+|2 |Fill facebook account credentials and log in	 | User is logged in to Facebook and see dialog with permission to login
+|3 |Click Continue | User is lredirected to original website and logged into the application |
 |3 |Log out of the application	 | The user has been logged out |
 |4 |Press the "Login" button	 | The user has been taken to the login screen |
 |5 |Press the Login with Facebook button |The user has logged into the application |

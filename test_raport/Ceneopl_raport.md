@@ -93,14 +93,15 @@ W przeglądarce OPERA, Firefox oraz Firefox Developer Edition  pojawia się czer
 
 ## Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych niskiego poziomu ##
 
-### Logowanie do strony za pomocą konta Facebook ###
+### Utworzenie i zalogowanie się na konto z użyciem uwierzytelniania Facebooka #
 
 **CEL:** Weryfikacja możliwości zalogowania do aplikacji za pomocą konta niepołączonego z kontem na portalu Facebook.
 
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
 |1 | Otwórz stronę logowania do serwisu i naciśnij przycisk Zaloguj się przez Facebook  |Użytkownik został przeniesiony do uproszczonego ekranu rejestracji	 |Działa  |
-|2 | Zaznacz wymaganą zgodę, a następnie naciśnij przycisk Zarejestruj się  | Zaznaczono checkbox ze zgodą na warunki regulaminu. Użytkownik został zarejestrowany i przeniesiony do aplikacji  | Działa |
-|3 |	Wyloguj się z aplikacji | Użytkownik został wylogowany | Działa |
-|4 |	Naciśnij przycisk „Zaloguj się” |Użytkownik został przeniesiony do ekranu logowania | Działa |
-|5 | Nacisnij przycisk Zaloguj się przez Facebooka| Użytkownik zalogował się do aplikacji  | Działa  |
+|2 | Wypełnij poświadczenia konta na Facebooku i zaloguj się  | Użytkownik jest zalogowany na Facebooku i wyświetla okno dialogowe z uprawnieniami do logowania | Działa |
+|3| Kliknij Kontynuuj | Użytkownik zostaje przekierowany do oryginalnej strony internetowej i zalogowany do aplikacji | Działa |
+|4 |	Wyloguj się z aplikacji | Użytkownik został wylogowany | Działa |
+|5 |	Naciśnij przycisk „Zaloguj się” |Użytkownik został przeniesiony do ekranu logowania | Działa |
+|6 | Nacisnij przycisk Zaloguj się przez Facebooka| Użytkownik zalogował się do aplikacji  | Działa |

@@ -34,6 +34,6 @@ These test cases can be applied to any system that has login functionality. Sinc
 |5 |Press the Login with Facebook button |The user has logged into the application |
 
 
-# My test case examples: #
+## My test case examples: ##
 1. [Ceneo.pl](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/Ceneopl_raport.md)
     

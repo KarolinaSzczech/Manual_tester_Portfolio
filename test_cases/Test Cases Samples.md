@@ -19,7 +19,7 @@ These test cases can be applied to any system that has login functionality. Sinc
 |12	| Attempt to log in as an existing user with an invalid password 3 or more times	| Login lockout for several minutes and/or email to user about suspicious login attempt. |
  
 
-# Default login test cases (low-level test cases) #
+## Default login test cases (low-level test cases) ##
 
 ### Use Facebook authentication to log in and create an account ###
 

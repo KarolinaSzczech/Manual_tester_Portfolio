@@ -95,11 +95,12 @@ W przeglądarce OPERA, Firefox oraz Firefox Developer Edition  pojawia się czer
 
 ### Logowanie do strony za pomocą konta Facebook ###
 
-**CEL:** Weryfikacja możliwości zalogowania do aplikacji za pomocą konta połączonego z kontem na portalu Facebook.
+**CEL:** Weryfikacja możliwości zalogowania do aplikacji za pomocą konta niepołączonego z kontem na portalu Facebook.
 
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
-|1 |   |	 | |
-|2 |   |  | |
-|3 |	 |  | |
-|4 |	 |  | |
+|1 | Naciśnij przycisk Zaloguj się przez Facebooka  |Użytkownik został przeniesiony do uproszczonego ekranu rejestracji	 |Działa  |
+|2 | Zaznacz wymaganą zgodę, a następnie naciśnij przycisk Zarejestruj się  | Zaznaczono checkbox ze zgodą na warunki regulaminu. Użytkownik został zarejestrowany i przeniesiony do aplikacji  | Działa |
+|3 |	Wyloguj się z aplikacji | Użytkownik został wylogowany | Działa |
+|4 |	Naciśnij przycisk „Zaloguj się” |Użytkownik został przeniesiony do ekranu logowania | Działa |
+|5 | Nacisnij przycisk Zaloguj się przez Facebooka| Użytkownik zalogował się do aplikacji  | Działa  |

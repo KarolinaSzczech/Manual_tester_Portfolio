@@ -30,9 +30,9 @@ These test cases can be applied to any system that has login functionality. Sinc
 |1 |Open the website login page and press the Login with Facebook button |	The user has been transferred to the Facebook login screen |
 |2 |Fill facebook account credentials and log in	 | User is logged in to Facebook and see dialog with permission to login
 |3 |Click Continue | User is lredirected to original website and logged into the application |
-|3 |Log out of the application	 | The user has been logged out |
-|4 |Press the "Login" button	 | The user has been taken to the login screen |
-|5 |Press the Login with Facebook button |The user has logged into the application |
+|4 |Log out of the application	 | The user has been logged out |
+|5 |Press the "Login" button	 | The user has been taken to the login screen |
+|6 |Press the Login with Facebook button |The user has logged into the application |
 
 
 ## My test case examples: ##

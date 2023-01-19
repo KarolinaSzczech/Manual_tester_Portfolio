@@ -21,7 +21,7 @@ These test cases can be applied to any system that has login functionality. Sinc
 
 # Default login test cases (low-level test cases) #
 
-### Login with a Facebook account without an account on the application ###
+### Log in with a Facebook account without an account on the application ###
 
 **Precondition:** The user has account in the Facebook application that are not synchronized with the website.
 

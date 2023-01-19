@@ -1,4 +1,6 @@
-# Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych wysokiego poziomu #
+# Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych wysokiego i niskiego poziomu #
+
+## Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych wysokiego poziomu ##
 
 **Do testów użyto:**
 
@@ -89,7 +91,7 @@ W przeglądarce OPERA, Firefox oraz Firefox Developer Edition  pojawia się czer
 ![4](https://user-images.githubusercontent.com/118970045/213261231-cb91e8bf-a473-418b-bfb6-cc0ee19c3c03.png)
 
 
-# Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych niskiego poziomu #
+## Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych niskiego poziomu ##
 
 ### Logowanie do strony za pomocą konta Facebook ###
 

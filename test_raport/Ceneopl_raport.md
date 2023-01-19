@@ -91,5 +91,13 @@ W przeglądarce OPERA, Firefox oraz Firefox Developer Edition  pojawia się czer
 
 # Raport z testów logowania do strony https://ceneo.pl z użyciem przypadków testowych niskiego poziomu #
 
+### Logowanie do strony za pomocą konta Facebook ###
 
+**CEL:** Weryfikacja możliwości zalogowania do aplikacji za pomocą konta połączonego z kontem na portalu Facebook.
 
+| No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
+|----|---------|--------|---------|
+|1 |   |	 | |
+|2 |   |  | |
+|3 |	 |  | |
+|4 |	 |  | |

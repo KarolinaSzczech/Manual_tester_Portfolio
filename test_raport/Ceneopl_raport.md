@@ -99,7 +99,7 @@ W przeglądarce OPERA, Firefox oraz Firefox Developer Edition  pojawia się czer
 
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
-|1 | Naciśnij przycisk Zaloguj się przez Facebooka  |Użytkownik został przeniesiony do uproszczonego ekranu rejestracji	 |Działa  |
+|1 | Otwórz stronę logowania do serwisu i naciśnij przycisk Zaloguj się przez Facebook  |Użytkownik został przeniesiony do uproszczonego ekranu rejestracji	 |Działa  |
 |2 | Zaznacz wymaganą zgodę, a następnie naciśnij przycisk Zarejestruj się  | Zaznaczono checkbox ze zgodą na warunki regulaminu. Użytkownik został zarejestrowany i przeniesiony do aplikacji  | Działa |
 |3 |	Wyloguj się z aplikacji | Użytkownik został wylogowany | Działa |
 |4 |	Naciśnij przycisk „Zaloguj się” |Użytkownik został przeniesiony do ekranu logowania | Działa |

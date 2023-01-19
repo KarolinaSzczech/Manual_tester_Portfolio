@@ -21,7 +21,7 @@ These test cases can be applied to any system that has login functionality. Sinc
 
 # Default login test cases (low-level test cases) #
 
-### Login with a Facebook account without an account on the website. ###
+### Login with a Facebook account without an account on the application ###
 
 **Precondition:** The user has accounts in the Facebook application that are not synchronized with the website.
 
@@ -30,10 +30,10 @@ These test cases can be applied to any system that has login functionality. Sinc
 |1 |Press the Login with Facebook button  |	The user has been transferred to the simplified registration screen |
 |2 |Tick the required consent and then press the Register button | The checkbox with consent to the terms of the regulations has been marked. The user has been registered and transferred to the application |
 |3 |Log out of the application	 | The user has been logged out |
-|4 |Press the "Login" button	 | Użytkownik został przeniesiony na ekran logowania |
-|5 | Press the Login with Facebook button |The user has logged into the application. |
+|4 |Press the "Login" button	 | The user has been taken to the login screen |
+|5 |Press the Login with Facebook button |The user has logged into the application |
 
 
-
-link
+# My test case examples: #
+1. [Ceneo.pl](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/Ceneopl_raport.md)
     

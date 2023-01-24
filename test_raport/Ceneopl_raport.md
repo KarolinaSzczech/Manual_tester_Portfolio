@@ -14,6 +14,11 @@ OS: Windows 10 PRO
  - Browser: Opera Wersja Wersja:94.0.4606.37 (wersja 64-bitowa)
 
 
+**Czas testów:**
+ - Testowanie strony https://ceneo.pl 6h
+ - Na przygotowanie raportu około 4h
+
+
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
 |1 |  Logowanie istniejącego użytkownika poprawnymi danymi |	Użytkownik jest zalogowany do aplikacji | Działa|

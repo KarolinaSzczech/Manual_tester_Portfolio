@@ -15,7 +15,7 @@ _**Desktop:**_
 
 **Czas testów:**
  - Testowanie strony https://noclegi.pl  - 4h
- - Na przygotowanie raportu około 6h
+ - Na przygotowanie raportu około - 6h
 
 
 ### Weryfikacja ustawień docelowego miejsca podróży ### 
@@ -97,7 +97,8 @@ Kroki:
 2. Z paska z konfiguracją ilości pokoi, ilości osób dorosłych i dzieci rozwiń listę osób dorosłych
 3. Z listy osób dorosłych wybierz opcję więcej niż 30
 
-** Rezultat:** _Pojawia się komunikat o z próśbą o kontakt z działem obsługi klienta. W słowie "orgnizowania" brakuje litery a po literze g.
+**Rezultat:** _Pojawia się komunikat o z próśbą o kontakt z działem obsługi klienta. W słowie "orgnizowania" brakuje litery a po literze g._
+
 ![Screen 1 - literówka w słowie orgaznizowania](https://user-images.githubusercontent.com/118970045/214586622-1f5de658-198c-4b69-a7fb-e378fed19e22.png)
 
  

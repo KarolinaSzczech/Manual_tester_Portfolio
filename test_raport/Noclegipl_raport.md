@@ -18,8 +18,7 @@ _**Desktop:**_
  - Na przygotowanie raportu około 6h
 
 
-Weryfikacja ustawień docelowego miejsca podróży 
-
+### Weryfikacja ustawień docelowego miejsca podróży ### 
 
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
@@ -28,8 +27,7 @@ Weryfikacja ustawień docelowego miejsca podróży
 |3 | Weryfikacja użycia polskich znaków np.: przez wpisanie miejscowości „Kolobrzeg” zamiast Kołobrzeg, lub „Poznan” zamiast Poznań.| Wyszukiwarka podpowiada prawidłową nazwę miejsca docelowego. | Wyszukiwarka działa poprawnie.|
 |4 | Użycie klawisza Enter dla potwierdzenia wyboru.| Kursor przechodzi do kolejnego pola lub wysyła formularz.| Działa poprawnie.|
 
-
-Weryfikacja funkcjonowania działania kalendarza do zarezerwowania pobytu
+## Weryfikacja funkcjonowania działania kalendarza do zarezerwowania pobytu ##
  
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
@@ -43,58 +41,64 @@ Weryfikacja funkcjonowania działania kalendarza do zarezerwowania pobytu
 |8 |Wybór dat z dalekiej przyszłości (rok lub więcej od dziś). |Nie można zarezerwować pobytu z rocznym i większym wyprzedzeniem. | Działa poprawnie. Najodleglejsza opcja to ustalenie daty powrotu dokładnie na rok do przodu od daty dzisiejszej. |
 
 
-Weryfikacja wieku dzieci
-
+### Weryfikacja wieku dzieci ###
 
 Zweryfikowano, że wartości wpisywane za pomocą klawiatury pozwalają na wpisywanie wieku jako liczby niecałkowitej z wartością po przecinku lub kropce.
 
-Wartość ustawiana za pomocą przycisku w górę i w dół  wyświetlają się jako liczby całkowite.
+Wartość ustawiana za pomocą przycisku w górę i w dół wyświetlają się jako liczby całkowite.
+- Zwiększanie i zmniejszanie wieku dzieci za pomocą przycisków góra dół - działa poprawnie
+
+Przycisk „Dzieci są w tym samym wieku” - działa poprawnie. Wiek waliduje na takich samych zasadach  jak w przypadku ustawiania wieku dla każdego dziecka z osobna. 
+
 
 
 | No. |	Przypadek testowy |Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|--------|---------|
-|1 |Ustawienie wieku za pomocą klawiatury jako liczby całkowitej. |Wartość możliwa do ustawienia. |Działa|
-|2 |Wprowadzenie wieku jako liczby niecałkowitej.|Wartość niemożliwa do ustawienia. Dla systemu rezerwacji pobytu wystarczającym jest ustawienie wieku dziecka jako liczby całkowitej.| Ustawiane wieku za pomocą przycisku w górę i w dół jako liczy niecałkowitej nie jest możliwe. Wprowadznie liczby niecałkowitej za pomocą klawiatury jest możliwe Błąd ID-001.|
-|3 |Wprowadzenie wartości mniejszej niż 0 | Wartość niemożliwa do ustawienia.| Działa.|
-|4 |Wprowadzenie wartości 18. |Nie jest możliwe ustawienie dla dziecka wieku 18 lat.| Działa.|
-|5 |Wprowadzenie w pole wiek liter lub znaków specjalnych. | Brak możliwości wprowadzenia. | Działa.|
+|1 |Wysłanie pustego formularza|Walidacja działa. Wyświetla się informacja o wymaganej wartości.|Działa| 
+|2 |Ustawienie wieku za pomocą klawiatury jako liczby całkowitej. |Wartość możliwa do ustawienia. |Działa|
+|3 |Wprowadzenie wieku jako liczby niecałkowitej.|Wartość niemożliwa do ustawienia. Dla systemu rezerwacji pobytu wystarczającym jest ustawienie wieku dziecka jako liczby całkowitej.| Ustawiane wieku za pomocą przycisku w górę i w dół jako liczy niecałkowitej nie jest możliwe. Wprowadznie liczby niecałkowitej za pomocą klawiatury jest możliwe. 
+|4 |Wprowadzenie wartości mniejszej niż 0 | Wartość niemożliwa do ustawienia.| Działa.|
+|5 |Wprowadzenie wartości 18. |Nie jest możliwe ustawienie dla dziecka wieku 18 lat.| Działa.|
+|6 |Wprowadzenie w pole wiek liter lub znaków specjalnych. | Brak możliwości wprowadzenia. | Działa.|
 
-Analiza wprowadzenia wartości brzegowych
+### Analiza wprowadzenia wartości brzegowych ###
 
 | No. |	Przypadek testowy | Wiek | Oczekiwany rezultat|	Otrzymany rezultat |
 |----|---------|---|--------|---------|
-|1| | | | |
-|2| | | | |
-|3| | | | |
-|4| | | | |
-|5| | | | |
-|6| | | | |
-|7| | | | |
-|8| | | | |
+|1|Niepoprawna wartość brzegowa |-1 |Wartość niepoprawna. Walidacja działa |Walidacja działa. Wiek nie zostaje zaakceptowany.|
+|2|Poprawna wartość brzegowa | 0|Wartość poprawna. Przyjęcie wieku. | Wiek zostaje zaakceptowany.|
+|3|Poprawna wartość brzegowa |0,5|Wartość poprawna. Przyjęcie wieku. | Wiek zostaje zakceptowany. Po zwinięciu i ponownym rozwinięciu pola z wiekiem dzieci wartość 0,5 zostaje zamieniona na 0.|
+|4|Poprawna wartość brzegowa |1|Wartość poprawna. Przyjęcie wieku. | Wiek zostaje zakceptowany.|
+|5|Poprawna wartość brzegowa |17.9|Wartość poprawna. Przyjęcie wieku |Wiek zostaje zakceptowany. Po zwinięciu i ponownym rozwinięciu pola z wiekiem dzieci wartość 17,9 zostaje zamieniona na 17. |
+|6|Poprawna wartość brzegowa |17.99 |Wartość poprawna. Przyjęcie wieku |Po zwinięciu i ponownym rozwinięciu pola z wiekiem dzieci wartość 17,99 zostaje zamieniona na 17. |
+|7|Niepoprawna wartość brzegowa |18 |Wartość niepoprawna. Walidacja działa |Walidacja działa. Wiek nie zostaje zaakceptowany. |
+|8|Niepoprawna wartość brzegowa |18.1 |Wartość niepoprawna. Walidacja działa |Walidacja działa. Wiek nie zostaje zaakceptowany. |
+|9|Nieoprawna wartość brzegowa |19 |Wartość niepoprawna. Walidacja działa |Walidacja działa. Wiek nie zostaje zaakceptowany. |
+
+![Screen_2 - wiek dzieci](https://user-images.githubusercontent.com/118970045/214585190-730f37ce-fcdf-4d0f-95c8-86080533db7d.png)
 
 
+### Konfiguracja ilości pokoi, ilości osób dorosłych i dzieci  ###
+
+ - Konfiguracja ilości pokoi, ilości osób dorosłych i dzieci odbywa się przez wybór z listy odpowiedniej pozycji lub z użyciem klawiatury - **działa poprawnie**.
+ - W przypadku wybrania z opcji "więcej miż 30 osób dorosłych" otrzymujemy komunikat z prośbą o kontakt z działem obsługi klienta. 
 
 
+ ### Wykryte defekty ###
+ 
+ ### ID-001 literówka w słowie oragnizowania ###
+ 
+ 
+Priorytet: Niski
 
+Kroki:
 
+1. Wejdź na stronę https://noclegi.pl
+2. Z paska z konfiguracją ilości pokoi, ilości osób dorosłych i dzieci rozwiń listę osób dorosłych
+3. Z listy osób dorosłych wybierz opcję więcej niż 30
 
-Weryfikacja wieku dzieci 
+** Rezultat:** _Pojawia się komunikat o z próśbą o kontakt z działem obsługi klienta. W słowie "orgnizowania" brakuje litery a po literze g.
+![Screen 1 - literówka w słowie orgaznizowania](https://user-images.githubusercontent.com/118970045/214586622-1f5de658-198c-4b69-a7fb-e378fed19e22.png)
 
-
-Zweryfikowano, że wartości wpisywane za pomocą klawiatury pozwalają na wpisywanie wieku jako liczy niecałkowitej z wartością po przecinku lub kropce.
-
-Wartość ustawiana za pomocą przycisku w górę i w dół  wyświetlają się jako liczy całkowite
-
-
-
-Konfiguracja ilości pokoi, ilości osób dorosłych i dzieci odbywa się przez wybór z listy odpowiedniej pozycji lub z użyciem klawiatury -  działa poprawnie
-
-Zwiększanie i zmniejszanie wieku dzieci za pomocą przycisków góra dół - działa poprawnie
-
-Przycisk „Dzieci są w tym samym wieku” - działa poprawnie. Wiek waliduje na takich samych zasadach  jak w przypadku ustawiania wieku dla każdego dziecka z osobna. 
-
-Podczas konfiguracji liczy osób dorosłych przy wyborze opcji 30 i więcej pojawia się komunikat
-Liczba podróżujących: ponad 30 osób
-W przypadku orgnizowania wyjazdu grupowego prosimy o kontakt z działem obsługi klienta od poniedziałku do piątku w godzinach 08:30-16:00 w celu otrzymania indywidualnej oferty!
-
-Wykryty defekt – literówka w słowie organizowania.
+ 
+ 

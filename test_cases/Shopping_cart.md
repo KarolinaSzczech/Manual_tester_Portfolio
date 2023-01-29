@@ -21,17 +21,8 @@ These test cases can be applied to any system that has a shopping cart
 |14	| Checking the possibility of adding more products to the cart than the number available in the stock |	It is not possible to add more products to the cart than the quantity in stock |
 |15| Refreshing the page while there are added products in the basket	| The content is still in the shopping cart |
 |16 | After hovering the mouse over the cart, its contents are displayed (only if it is intended)	|The content shows up |
-|17	| |	 |
-|18	| 	|  |
-|19 |	 |	|
-|20	| |	 |
-|21	| 	|  |
-|22 |	 |	|
-|23	| |	 |
-|24	| 	|  |
- 
-
-
+|17	| Logging in to your account after adding the product to your cart| Signing into your account does not clear the contents of shopping cart	 |
+|18	|Log out and log back in	|Signing out does not clear the contents of your shopping cart. After logging back in, the products are still in the cart  |
 
 ## My test case examples: ##
-1. [ZimaSklep.pl](.....)
+1. [ZimaSklep](.....)

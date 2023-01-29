@@ -1,0 +1,51 @@
+# Test cases for correctly verifying the calculation of discounts in the shopping cart on the site https://natura.pl #
+
+
+ **Promotion conditions**
+
+1. The promotion applies only to Botanic products.
+2. The discount is 50% on the second product.
+3. The discount is calculated for a cheaper product or at the same price
+
+
+**Used for testing:**
+
+**Desktop:**
+
+OS: Windows 10 PRO
+ - Browser: Chrome version 107.0.5304.108 (Oficjalna wersja) (64-bitowa)
+ - Browser: Firefox Wersja 109.0 (64 bity)
+ - Browser: Firefox Developer Edition Wersja 108.0b6 (64 bity)
+ - Browser: Microsoft Edge Wersja 107.0.1418.56 (Oficjalna kompilacja) (wersja 64-bitowa)
+ - Browser: Opera Wersja Wersja:94.0.4606.37 (wersja 64-bitowa)
+
+**Testing time:**
+ - Shopping cart testing - 2h
+ - Preparing a report - 2h
+
+
+| No. |	Test Case |Preconditions|	Expected Result | Received Result |
+|----|----|----|----|----|
+|1 |Adding a first promotional product to the cart.|Empty cart.| Product successfully added to cart.| Correct result.|
+|2 |Increasing the number of product in the cart from 1 to 2.	|One promotional product in cart.|Increasing the number of products in the basket, the price is recalculated, the discount for the second product is granted in the correct amount.	| Correct result.|
+|3 |Decreasing the number of items in the cart from 1 to 2.|There are two products in the shopping cart.	|Decreasing the number of products in the cart, the price is recalculated, no discount	| Correct result.|
+|4 |Adding different promotional product to the cart at the same price as the first product.|There is one promotional product in the cart.|The product is correctly added to the basket, the price is recalculated, the discount for the second product is granted in the correct amount	| Correct result.|
+|5 | | | | | 
+|6 | | | | | 
+|7 | | | | | 
+|8 | | | | |
+|9 | | | | | 
+|10 | | | | | 
+|11 | | | | | 
+|12 | | | | | 
+|13 | | | | | 
+|14 | | | | | 
+|15 | | | | | 
+
+
+
+
+
+
+
+

@@ -23,5 +23,5 @@ These test cases can be applied to any system that has a shopping cart.
 |17	|Logging in to your account after adding the product to your cart. _(For users with an account)_| Signing into your account does not clear the contents of shopping cart.|
 |18	|Log out and log back in.	_(For users with an account)_|Signing out does not clear the contents of your shopping cart. After logging back in, the products are still in the cart.|
 
-## My test case examples: ##
+## Test raport based on above test cases: ##
 1. [ZimaSklep](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/ZimaSklep.md)

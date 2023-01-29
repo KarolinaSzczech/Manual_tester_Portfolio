@@ -1,6 +1,5 @@
 # Test Cases Samples #
 
-## Default login test cases (high-level test cases) ##
 These test cases can be applied to any system that has a shopping cart
 
 | No. |	Test Case |	Expected Result |

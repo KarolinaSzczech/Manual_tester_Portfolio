@@ -7,10 +7,12 @@ Raport z testów niedawno udostępnionej strony https://diety.nfz.gov.pl/
 
 _**Desktop:**_
 
- - OS: Windows 10 PRO
- - Browser: Chrome version 107.0.5304.108 (Oficjalna wersja) (64-bitowa)
- - Browser: Firefox Developer Edition Wersja 108.0b6
- - Microsoft Edge Wersja 107.0.1418.56 (Oficjalna kompilacja) (wersja 64-bitowa)
+  OS: Windows 10 PRO
+ - Przeglądarka : Chrome Wersja 107.0.5304.108 (64-bitowa)
+ - Przeglądarka : Firefox Wersja 109.0 (64 bity)
+ - Przeglądarka : Firefox Developer Edition Wersja 108.0b6 (64 bity)
+ - Przeglądarka : Microsoft Edge Wersja 107.0.1418.56 (Oficjalna kompilacja) (wersja 64-bitowa)
+ - Przeglądarka : Opera Wersja 94.0.4606.37 (wersja 64-bitowa)
 
 _**Smartphone:**_
 

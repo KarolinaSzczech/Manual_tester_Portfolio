@@ -25,3 +25,4 @@ These test cases can be applied to any system that has a shopping cart.
 
 ## Test raport based on above test cases: ##
 1. [ZimaSklep](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/ZimaSklep.md)
+2. [TestLinkReport](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/Przypadki%20testowe%20zrealizowane%20w%20TestLink.pdf)

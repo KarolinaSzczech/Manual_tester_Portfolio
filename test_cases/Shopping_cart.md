@@ -1,6 +1,6 @@
 # Test Cases Samples #
 
-These test cases can be applied to any system that has a shopping cart.
+These test cases can be applied to any website or aplication that has a shopping cart.
 
 | No. |	Test Case |	Expected Result |
 |----|---------|-----------------|

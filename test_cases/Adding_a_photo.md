@@ -20,4 +20,4 @@ These test cases can be applied to any website or application where you can add 
 |13 |Adding a panorama composed of multiple photos or a 360-degree photo.	|Unable to approve / validation message appears. |
 
 ## Test raport based on above test cases: ##
-1. [EGZEMPLE]()
+1. [Example]()

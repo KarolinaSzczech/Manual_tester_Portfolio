@@ -13,8 +13,8 @@
 **Desktop:**
 
 OS: Windows 10 PRO
- - Browser: Chrome version 107.0.5304.108) 
- - Browser: Firefox version 109.0
+ - Browser: Chrome Version 107.0.5304.108) 
+ - Browser: Firefox Version 109.0
  - Browser: Firefox Developer Edition Version 108.0b6
  - Browser: Microsoft Edge Version 107.0.1418.56
  - Browser: Opera Version 94.0.4606.37 

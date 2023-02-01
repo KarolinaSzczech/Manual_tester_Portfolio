@@ -4,7 +4,7 @@
 
 My name is Karolina and I'm looking for my first job as a tester.
 
-Previously, I worked for the bailiff and Social Insurance Institution (ZUS). I think that my previous experience prepared me to work as a software tester because they developed the soft skills necessary for me to work in this position. Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. I am a communicative person with an optimistic attitude to new tasks. I can work in a team. I have experience in contact with difficult people.
+Previously, I worked for the bailiff and Social Insurance Institution (ZUS). I think that my previous experience prepared me to work as a software tester because I developed the soft skills necessary for me to work in this position. Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. I am a communicative person with an optimistic attitude to new tasks. I can work in a team. I have experience in contact with difficult people.
 
 I want to work in IT because I want to work remotely and from time to time work other hours than 8-16. My previous jobs didn't give me that. 
 

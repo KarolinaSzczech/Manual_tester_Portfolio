@@ -24,7 +24,7 @@ OS: Windows 10 PRO
  - Preparing a report - 2h
 
 
-| No. |	Test Case |Preconditions|	Expected Result | Received Result |
+| No. |	Test Case |Preconditions|	Expected Result | Actual Result |
 |----|----|----|----|----|
 |1 |Adding a first promotional product to the cart.|Empty cart.| Product successfully added to cart.| Correct result.|
 |2 |Increasing the number of product in the cart from 1 to 2.	|One promotional product in cart.|Increasing the number of products in the basket, the price is recalculated, the discount for the second product is granted in the correct amount.	| Correct result.|

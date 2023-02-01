@@ -1,5 +1,9 @@
 ## Test report of adding photos in the advertisement on the https://olx.pl website ##
 
+**Testing time:**
+
+ - Adding photo testing - 2h
+ - Preparing a report - 3h
 
 ### Used for testing: ###
 
@@ -13,7 +17,7 @@ OS: Windows 10 PRO
  - Browser: Microsoft Edge Version 107.0.1418.56
  - Browser: Opera Version 94.0.4606.37
 
-| No. |	Test Case | Expected Result | Received Result |
+| No. |	Test Case | Expected Result | Actual Result |
 |----|----|----|----|
 |1 |Adding a file in the correct format.|Added correctly.|Correct result. |
 |2 |Delete added file. |Deleted correctly. Good practice: Validation message such as "Are you sure you want to delete the object?"|Correct result. No validation message.|
@@ -48,7 +52,7 @@ OS: Windows 10 PRO
 
 **Expected Result:** Unable to add damaged photo. The user should see a validation message.
 
-**Received Result:** The user not see a validation message. The damaged photo keeps loading. It doesn't stop loading even after a few minutes.
+**Actual Result:** The user not see a validation message. The damaged photo keeps loading. It doesn't stop loading even after a few minutes.
 
 ![olx - uszkodzony plik](https://user-images.githubusercontent.com/118970045/216030907-74da2ad7-8d90-415a-be9e-ed3ccda92bd4.png)
 ![Ładowanie się](https://user-images.githubusercontent.com/118970045/216031915-c8d79aa6-3e49-4fca-8f0d-afd37188acc2.gif)
@@ -71,7 +75,6 @@ OS: Windows 10 PRO
 
 **Expected Result:** Unable to add photo. The user should see a validation message.
 
-**Received Result:** The user not see a validation message. The photo keeps loading. It doesn't stop loading even after a few minutes.
-It is the same situation as bug ID-001.
+**Actual Result:** The user not see a validation message. The damaged photo hangs while loading. It is the same situation as bug ID-001.
 
 

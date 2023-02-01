@@ -17,7 +17,7 @@ OS: Windows 10 PRO
  - Preparing a report - 2h
 
 
-| No. |	Test Case |	Expected Result | Received Result |
+| No. |	Test Case |	Expected Result | Actual Result |
 |----|---------|-----------------|-------|
 |1 |Adding a product to the cart.|Product successfully added to cart.| Correct result.|
 |2 |Continue shopping after adding product to your cart. |Product successfully added to cart| Correct result.|

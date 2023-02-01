@@ -15,7 +15,8 @@ I want to work in IT because I want to work remotely and from time to time work 
  - Jira course (Udemy),
  - SQL basics course (Udemy),
  - Postman course - REST API testing (Udemy),
- - JavaScript workshops - girls.js.
+ - JavaScript workshops - girls.js,
+ - Intro to HTML and CSS (Udacity).
 
 # Courses in progress: #
  - Git course (Udemy).

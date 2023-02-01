@@ -38,6 +38,7 @@ I want to work in IT because I want to work remotely and from time to time work 
  - Software testing,
  - Creating test cases and scenarios,
  - Reporting bugs,
+ - Functional testing SQL,
  - Using MS Office.
 
 # My test case examples: #

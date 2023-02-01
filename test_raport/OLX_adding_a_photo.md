@@ -13,7 +13,7 @@ OS: Windows 10 PRO
  - Browser: Microsoft Edge Version 107.0.1418.56
  - Browser: Opera Version 94.0.4606.37
 
-| No. |	Test Case | Expected Result | Received Result |
+| No. |	Test Case | Expected Result | Actual Result |
 |----|----|----|----|
 |1 |Adding a file in the correct format.|Added correctly.|Correct result. |
 |2 |Delete added file. |Deleted correctly. Good practice: Validation message such as "Are you sure you want to delete the object?"|Correct result. No validation message.|

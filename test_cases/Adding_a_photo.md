@@ -20,4 +20,4 @@ These test cases can be applied to any website or application where you can add 
 |13 |Adding a panorama composed of multiple photos or a 360-degree photo.	|Added correctly. _(Only if it is intended.)_  |
 
 ## Test report based on the above test cases: ##
-1. [Example]()
+1. [OLX_adding_a_photo](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/OLX_adding_a_photo.md)

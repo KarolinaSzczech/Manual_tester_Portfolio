@@ -18,9 +18,6 @@ I want to work in IT because I want to work remotely and from time to time work 
  - JavaScript workshops - girls.js.
 
 # Courses in progress: #
-
-e.g:
-
  - Git course (Udemy).
  
  # Browser used during testing: #

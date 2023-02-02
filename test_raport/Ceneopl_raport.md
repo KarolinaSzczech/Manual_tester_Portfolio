@@ -42,7 +42,7 @@ Priorytet: Niski
 Kroki:
 
 1. Wejdź na stronę https://ceneo.pl
-2. Przejdż na stronę logowania 
+2. Przejdź na stronę logowania 
 3. Skopiuj adres URL strony logowania
 4. Zaloguj się poprawnymi danymi 
 5. Wklej adres URL strony logowania i wciśnij ENTER
@@ -59,7 +59,7 @@ Priorytet: Niski
 Kroki:
 
 1. Wejdź na stronę https://ceneo.pl
-2. Przejdż na stronę logowania 
+2. Przejdź na stronę logowania 
 3. Trzykrotnie zaloguj się do konta z użyciem nieprawidłowego hasła
 
 **_Rezultat_**: Brak blokady, użytkownik w dalszym ciągu ma możliwość logowania się, pojawia się komunikat _Niepoprawna nazwa użytkownika lub hasło_ oraz sugestia skorzystania z opcji przypomnienia hasła.
@@ -74,7 +74,7 @@ Priorytet: Niski
 Kroki:
 
 1. Wejdź na stronę https://ceneo.pl
-2. Przejdż na stronę logowania 
+2. Przejdź na stronę logowania 
 3. Pięciokrotnie zaloguj się do konta z użyciem nieprawidłowego hasła
 
 **_Rezultat_**: Brak blokady, użytkownik w dalszym ciągu ma możliwość logowania się, pojawia się komunikat _Niepoprawna nazwa użytkownika lub hasło_ oraz sugestia skorzystania z opcji przypomnienia hasła. Pojawia się również reCAPTCHA z opcją zaznaczenia nie jestem robotem

@@ -67,7 +67,7 @@ Kroki:
 ![2](https://user-images.githubusercontent.com/118970045/213248247-0dde9824-7598-4809-b83d-a3c55b6d8ee3.png)
 
 
-### ID 003 Brak blokady dalszego logowania po pięciokrotnwj próbie zalogowania się z użyciem nieprawidłowego hasła ###
+### ID 003 Brak blokady dalszego logowania po pięciokrotnej próbie zalogowania się z użyciem nieprawidłowego hasła ###
 
 Priorytet: Niski
 

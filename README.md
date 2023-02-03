@@ -6,7 +6,7 @@ My name is Karolina and I want to start my career as a software tester. I am loo
 
 Previously, I worked for the bailiff and Social Insurance Institution (ZUS). I think that my previous experience prepared me to work as a tester because I developed the soft skills necessary to work in this position. Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. I am a communicative person with an optimistic attitude to new tasks. I can work in a team. I have experience in contact with difficult people.
 
-I tried to manually test applications and websites and I liked it, I want to go this way.
+I tried manually testing apps and websites and I liked it, I want to go this way.
 
 
 # My courses: #

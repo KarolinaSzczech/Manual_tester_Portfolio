@@ -10,13 +10,13 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
 
 # My courses: #
 
+ - JavaScript workshops - girls.js,
+ - Intro to HTML and CSS (Udacity),
  - Practical software tester course (Udemy),
  - Basics of manual software testing (Udemy),
  - Jira course (Udemy),
  - SQL basics course (Udemy),
- - Postman course - REST API testing (Udemy),
- - JavaScript workshops - girls.js,
- - Intro to HTML and CSS (Udacity).
+ - Postman course - REST API testing (Udemy).
 
 # Courses in progress: #
  - Git course (Udemy).

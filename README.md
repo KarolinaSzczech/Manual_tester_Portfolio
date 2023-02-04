@@ -38,7 +38,8 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - Software testing,
  - Creating test cases and scenarios,
  - Reporting bugs,
- - Functional testing SQL,
+ - Functional testing, 
+ - SQL,
  - Using MS Office.
 
 # My test case examples: #

@@ -45,8 +45,11 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
 # My test case examples: #
 [Test case example](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_cases)
 
-# My bug report examples: #
-[Bug report](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_raport)
+# My bug report and test results examples: #
+[Bug report and test results examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_raport)
+
+# My REST API test examples: #
+[REST API test examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/DRAFT/Postman)
 
 # Studies: #
 2007 – 2012 University of Rzeszów, Law, master’s degree

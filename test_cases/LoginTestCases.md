@@ -36,5 +36,4 @@ These test cases can be applied to any system that has login functionality. Sinc
 
 
 ## My test case examples: ##
-1. [Ceneo.pl](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/Ceneopl_raport.md)
-    
+1. [Ceneo.pl](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Reports_and_Test_results/Ceneopl_raport.md)

@@ -46,7 +46,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
 [Test case example](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_cases)
 
 # My bug report and test results examples: #
-[Bug report and test results examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/test_raport)
+[Bug report and test results examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/Reports_and_Test_results)
 
 # My REST API test examples: #
 [REST API test examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/DRAFT/Postman)

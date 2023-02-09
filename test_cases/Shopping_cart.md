@@ -24,5 +24,5 @@ These test cases can be applied to any website or aplication that has a shopping
 |18	|Log out and log back in.	_(For users with an account)_|Signing out does not clear the contents of your shopping cart. After logging back in, the products are still in the cart.|
 
 ## Test raport based on above test cases: ##
-1. [ZimaSklep](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/ZimaSklep.md)
-2. [TestLinkReport](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/nowy_raport/test_raport/Przypadki%20testowe%20zrealizowane%20w%20TestLink.pdf)
+1. [ZimaSklep](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Reports_and_Test_results/ZimaSklep.md)
+2. [TestLinkReport](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Reports_and_Test_results/Przypadki%20testowe%20zrealizowane%20w%20TestLink.pdf)

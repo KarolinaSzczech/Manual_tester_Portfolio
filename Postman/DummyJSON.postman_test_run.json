@@ -1,0 +1,355 @@
+{
+	"id": "bca72b0e-2562-4c04-8fff-b73bfac8db38",
+	"name": "DummyJSON",
+	"timestamp": "2023-02-09T16:45:22.491Z",
+	"collection_id": "25226682-2abf32fd-f606-495d-a803-85e981d7d39b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 18,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-02-09T16:45:17.845Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5de065fc-b662-4278-9308-c6e000aaa6fa",
+			"name": "GET All Products",
+			"url": "https://dummyjson.com/products",
+			"time": 480,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				480
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "5ddd9181-6973-4303-9c39-d98867a6a88e",
+			"name": "GET 1 Product",
+			"url": "https://dummyjson.com/products/30",
+			"time": 327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "e23b91aa-7231-42b4-b702-076ebd813795",
+			"name": "GET Products Search",
+			"url": "https://dummyjson.com/products/search?q=phone",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				330
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "e4863cf5-9da7-419b-8189-bfca9f914963",
+			"name": "GET Categories",
+			"url": "https://dummyjson.com/products/categories",
+			"time": 327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "1471a7f0-e6ad-4d53-9d48-10e1841636ae",
+			"name": "GET Search User",
+			"url": "https://dummyjson.com/users/search?q=John",
+			"time": 334,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				334
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "d0f6e899-0289-4a02-84c4-8fd0519d62b5",
+			"name": "GET Filter Users",
+			"url": "https://dummyjson.com/users/filter?key=hair.color&value=Brown",
+			"time": 340,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				340
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "81e7330a-d365-431a-bfa9-84560f0863a3",
+			"name": "POST Products",
+			"url": "https://dummyjson.com/products/add",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "3b88f6b2-41c6-4898-98ed-10074d26b814",
+			"name": "PUT Products",
+			"url": "https://dummyjson.com/products/3",
+			"time": 335,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				335
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "59345599-2cba-459c-ad32-c9bab44088d3",
+			"name": "DELETE Produsts",
+			"url": "https://dummyjson.com/products/3",
+			"time": 331,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				331
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3132,
+	"collection": {
+		"requests": [
+			{
+				"id": "5de065fc-b662-4278-9308-c6e000aaa6fa",
+				"method": "GET"
+			},
+			{
+				"id": "5ddd9181-6973-4303-9c39-d98867a6a88e",
+				"method": "GET"
+			},
+			{
+				"id": "e23b91aa-7231-42b4-b702-076ebd813795",
+				"method": "GET"
+			},
+			{
+				"id": "e4863cf5-9da7-419b-8189-bfca9f914963",
+				"method": "GET"
+			},
+			{
+				"id": "1471a7f0-e6ad-4d53-9d48-10e1841636ae",
+				"method": "GET"
+			},
+			{
+				"id": "d0f6e899-0289-4a02-84c4-8fd0519d62b5",
+				"method": "GET"
+			},
+			{
+				"id": "81e7330a-d365-431a-bfa9-84560f0863a3",
+				"method": "POST"
+			},
+			{
+				"id": "3b88f6b2-41c6-4898-98ed-10074d26b814",
+				"method": "PUT"
+			},
+			{
+				"id": "59345599-2cba-459c-ad32-c9bab44088d3",
+				"method": "DELETE"
+			}
+		]
+	}
+}

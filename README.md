@@ -59,7 +59,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
    - Senior office worker ZUS Wałcz Department of Settlement of Contributory Payers,
 
  - July 2020 – July 2020
-   - Clerk Bailiff's Office No. VI in Sulejówek,
+   - Office worker Bailiff's Office No. VI in Sulejówek,
   
  - May 2017 – December 2019
    - Bailiff assessor Bailiff's Office No. XXIII in Warsaw,
@@ -68,7 +68,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
    - Bailiff assessor Bailiff's Office No. IV in Blizne Łaszczyńskiego Stare Babice,
 
  - September 2012 – April 2016
-   - Clerk and trainee bailiff Bailiff's Office No. XVI in Rzeszow.
+   - Trainee, office worker and bailiff assessor Bailiff's Office No. XVI in Rzeszów.
       
  # Books I read: #
  - "_Zawód Tester_", Radosław Smilgin,

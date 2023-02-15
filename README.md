@@ -68,7 +68,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
    - Bailiff assessor Bailiff's Office No. IV in Blizne Łaszczyńskiego Stare Babice,
 
  - September 2012 – April 2016
-   - Trainee, office worker and bailiff assessor Bailiff's Office No. XVI in Rzeszów.
+   - Trainee, office worker and bailiff applicant Bailiff's Office No. XVI in Rzeszów.
       
  # Books I read: #
  - "_Zawód Tester_", Radosław Smilgin,

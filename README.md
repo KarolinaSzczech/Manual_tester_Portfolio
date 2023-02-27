@@ -39,7 +39,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - Jira.
  
  # Tech skills in basics: #
- - Knowledge ISTQB FL
+ - Knowledge ISTQB FL,
  - Software testing,
  - Creating test cases and scenarios,
  - Reporting bugs,

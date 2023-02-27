@@ -16,15 +16,18 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - Basics of manual software testing (Udemy),
  - Jira course (Udemy),
  - SQL basics course (Udemy),
- - Postman course - REST API testing (Udemy).
+ - Postman course - REST API testing (Udemy),
+ - Basic Cypress - test automation (Udemy).
 
 # Courses in progress: #
- - Git course (Udemy).
+ - Git course (Udemy),
+ - Software Development Lifecycle & Methodologies (Udemy),
+ - basic javascript course (Udemy).
  
  # Browser used during testing: #
- - Chrome
- - Firefox
- - Opera
+ - Chrome,
+ - Firefox,
+ - Opera.
  
  # Know in basics: #
  - SQL,
@@ -35,6 +38,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - Jira.
  
  # Tech skills in basics: #
+ - Knowledge ISTQB FL
  - Software testing,
  - Creating test cases and scenarios,
  - Reporting bugs,
@@ -73,7 +77,9 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  # Books I read: #
  - "_Zawód Tester_", Radosław Smilgin,
  - "_Podróż przez świat testowania_", Karolina Pawłowska, Natalia Pawlak,
- - "_Sztuka testowania oprogramowania_", Glenford J. Myers, Sandl Corey.
+ - "_Sztuka testowania oprogramowania_", Glenford J. Myers, Sandl Corey,
+ - "_Testowanie oprogramowania w praktyce. Studium przypadków_", Red. Adam Roman, Karolina Zmitrowicz,
+ - "_JavaScript od podstaw_", Marcin Moskała
 
 # Blogs I read: #
  - testerzy.pl,

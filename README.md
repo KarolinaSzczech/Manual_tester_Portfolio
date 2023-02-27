@@ -14,15 +14,16 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - Intro to HTML and CSS (Udacity),
  - Practical software tester course (Udemy),
  - Basics of manual software testing (Udemy),
+ - Basic Cypress - test automation (Udemy),
  - Jira course (Udemy),
  - SQL basics course (Udemy),
- - Postman course - REST API testing (Udemy),
- - Basic Cypress - test automation (Udemy).
+ - Postman course - REST API testing (Udemy).
+ 
 
 # Courses in progress: #
  - Git course (Udemy),
  - Software Development Lifecycle & Methodologies (Udemy),
- - basic javascript course (Udemy).
+ - Basic JavasSript course (Udemy).
  
  # Browser used during testing: #
  - Chrome,

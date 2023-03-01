@@ -8,7 +8,8 @@ I have been observing digitization in various areas of life for some time. I bec
 
 Previously, I worked as a bailiff assessor and senior office worker at the Social Insurance Institution (ZUS). As a bailiff assessor, I was exposed to a lot of stress and social criticism. On the other hand, now I can work under pressure and with difficult clients.  Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. 
 
-My LinkedIn account: https://www.linkedin.com/in/szczechkarolina
+[LinkedIn account](https://www.linkedin.com/in/szczechkarolina)
+
 
 # My courses: #
 
@@ -91,6 +92,7 @@ My LinkedIn account: https://www.linkedin.com/in/szczechkarolina
  - wyszkolewas.com.pl.
 
 # IT groups on Facebook I follow: #
+ - Kurs Tester Manualny,
  - Testowanie oprogramowania,
- - Tester oprogramowania - wsparcie na starcie,
- - Kurs Tester Manualny.
+ - Tester oprogramowania - wsparcie na starcie.
+

@@ -8,6 +8,8 @@ I have been observing digitization in various areas of life for some time. I bec
 
 Previously, I worked as a bailiff assessor and senior office worker at the Social Insurance Institution (ZUS). As a bailiff assessor, I was exposed to a lot of stress and social criticism. On the other hand, now I can work under pressure and with difficult clients.  Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. 
 
+My LinkedIn account: https://www.linkedin.com/in/szczechkarolina
+
 # My courses: #
 
  - JavaScript workshops - girls.js,
@@ -23,7 +25,7 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
 
 # Courses in progress: #
  - Git course (Udemy),
- - Basic JavasSript course (Udemy).
+ - Basic JavaScript course (Udemy).
  
  # Browser used during testing: #
  - Chrome,
@@ -36,7 +38,8 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - DevTools,
  - Postman
  - Trello,
- - Jira.
+ - Jira,
+ - Cypress.
  
  # Tech skills in basics: #
  - Knowledge ISTQB FL,

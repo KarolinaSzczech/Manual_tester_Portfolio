@@ -17,12 +17,12 @@ Previously, I worked as a bailiff assessor and senior office worker at the Socia
  - Basic Cypress - test automation (Udemy),
  - Jira course (Udemy),
  - SQL basics course (Udemy),
- - Postman course - REST API testing (Udemy).
+ - Postman course - REST API testing (Udemy),
+ - Software Development Lifecycle & Methodologies (Udemy).
  
 
 # Courses in progress: #
  - Git course (Udemy),
- - Software Development Lifecycle & Methodologies (Udemy),
  - Basic JavasSript course (Udemy).
  
  # Browser used during testing: #

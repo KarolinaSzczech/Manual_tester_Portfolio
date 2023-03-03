@@ -2,9 +2,9 @@
 
 My name is Karolina. I am a communicative person with an optimistic attitude to new tasks. I want to start my career as a software tester.
 
-Previously, I worked as a bailiff assessor and senior office worker at the Social Insurance Institution (ZUS). As a bailiff assessor, I was exposed to a lot of stress and social criticism. On the other hand, now I can work under pressure and with difficult clients. Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. 
+Previously, I worked as a bailiff assessor and senior office worker at the Social Insurance Institution (ZUS). As a bailiff assessor, I was exposed to a lot of stress and social criticism. On the other hand, now I can work under pressure and with difficult clients. Working for the bailiff required high personal culture and self-discipline from me. I focused on timeliness and quality of tasks. While working at ZUS, I had the opportunity to report bugs in the applications I use.
 
-I have been observing digitization in various areas of life for some time. I became interested in the topic of testing and application quality. I read the book "Podróż przez świat testowania(Fun with bugs)" and decided to give it a try. I tested apps and websites that I use every day. I managed to find a few bugs and see places that could be improved. While working at ZUS, I had the opportunity to report bugs in the applications I use. I think it's a good start and I'm looking for a place where my skills will be useful.
+I have been observing digitization in various areas of life for some time. I became interested in the topic of testing and application quality. I read the book "Podróż przez świat testowania(Fun with bugs)" and decided to give it a try. I tested apps and websites that I use every day. I managed to find a few bugs and see places that could be improved. I think it's a good start and I'm looking for a place where my skills will be useful.
 
 
 

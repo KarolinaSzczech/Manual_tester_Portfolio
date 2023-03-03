@@ -13,22 +13,21 @@ While working at ZUS, I had the opportunity to report bugs in the applications I
 
 # My courses: #
 
- - JavaScript workshops - girls.js,
- - Intro to HTML and CSS (Udacity),
- - Practical software tester course (Udemy),
  - Basics of manual software testing (Udemy),
- - Basic Cypress - test automation (Udemy),
+ - Practical software tester course (Udemy),
+ - Software Development Lifecycle & Methodologies (Udemy),
  - Jira course (Udemy),
- - SQL basics course (Udemy),
  - Postman course - REST API testing (Udemy),
- - Software Development Lifecycle & Methodologies (Udemy).
- 
+ - SQL basics course (Udemy),
+ - Intro to HTML and CSS (Udacity),
+ - JavaScript workshops - girls.js,
+ - Basic Cypress - test automation (Udemy),
+ - Basic JavaScript course (Udemy).
 
 # Courses in progress: #
- - Git course (Udemy),
- - Basic JavaScript course (Udemy).
+ - Git course (Udemy).
  
- # Browser used during testing: #
+# Browser used during testing: #
  - Chrome,
  - Firefox,
  - Opera.
@@ -84,7 +83,7 @@ While working at ZUS, I had the opportunity to report bugs in the applications I
  - "_Podróż przez świat testowania_", Karolina Pawłowska, Natalia Pawlak,
  - "_Sztuka testowania oprogramowania_", Glenford J. Myers, Sandl Corey,
  - "_Testowanie oprogramowania w praktyce. Studium przypadków_", Red. Adam Roman, Karolina Zmitrowicz,
- - "_JavaScript od podstaw_", Marcin Moskała
+ - "_JavaScript od podstaw_", Marcin Moskała.
 
 # Blogs I read: #
  - testerzy.pl,

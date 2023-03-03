@@ -1,5 +1,3 @@
-# Manual tester Portfolio #
-
 # About me #
 
 My name is Karolina. I am a communicative person with an optimistic attitude to new tasks. I want to start my career as a software tester. I am looking for a company that will give me a chance to learn and develop myself. 

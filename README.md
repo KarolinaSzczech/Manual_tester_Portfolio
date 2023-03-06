@@ -57,7 +57,7 @@ While working at ZUS, I had the opportunity to report bugs in the applications I
 [Bug reports and test results examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/Reports_and_Test_results)
 
 # My REST API test examples: #
-[REST API test examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/DRAFT/Postman)
+[REST API test examples](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/tree/main/Postman)
 
 # Studies: #
 2007 – 2012 University of Rzeszów, Law, master’s degree

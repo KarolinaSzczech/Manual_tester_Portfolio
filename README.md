@@ -13,17 +13,17 @@ While working at ZUS, I had the opportunity to report bugs in the applications I
 
 # My courses: #
 
- - Basics of manual software testing (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Basics%20of%20manual%20software%20testing.pdf)
- - Practical software tester course (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Practical%20software%20tester%20course.pdf)
- - Software Development Lifecycle & Methodologies (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Software%20Development%20Lifecycle%20%26%20Methodologies.pdf)
- - Jira course (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Jira%20course.pdf)
- - Postman course - REST API testing (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Postman%20course%20-%20REST%20API%20testing.pdf)
- - SQL basics course PostgreSQL (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/SQL%20basics%20course.pdf)
- - SQL basics course SQL Server (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/SQL.pdf)
+ - Basics of manual software testing (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Basics%20of%20manual%20software%20testing.pdf)
+ - Practical software tester course (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Practical%20software%20tester%20course.pdf)
+ - Software Development Lifecycle & Methodologies (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Software%20Development%20Lifecycle%20%26%20Methodologies.pdf)
+ - Jira course (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Jira%20course.pdf)
+ - Postman course - REST API testing (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Postman%20course%20-%20REST%20API%20testing.pdf)
+ - SQL basics course PostgreSQL (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/SQL%20basics%20course.pdf)
+ - SQL basics course SQL Server (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/SQL.pdf)
  - Intro to HTML and CSS (Udacity)
  - JavaScript workshops - girls.js
- - Basic Cypress - test automation (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Basic%20Cypress%20-%20test%20automation.pdf)
- - Basic JavaScript course (Udemy) - [Certyfikate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/Changes/Certificates/Basic%20JavaScript%20course.pdf)
+ - Basic Cypress - test automation (Udemy) - [Certificate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Basic%20Cypress%20-%20test%20automation.pdf)
+ - Basic JavaScript course (Udemy) - [Certyfikate](https://github.com/KarolinaSzczech/Manual_tester_Portfolio/blob/main/Certificates/Basic%20JavaScript%20course.pdf)
 
 # Courses in progress: #
  - Git course (Udemy).
